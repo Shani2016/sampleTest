@@ -1,0 +1,153 @@
+﻿<style>
+    .gm-style-iw + div {
+        display: none;
+    }
+
+    .gm-style-iw {
+        right: 2px !important;
+        top: 50px !important;
+        left: 27px !important;
+    }
+
+        .gm-style-iw div {
+            right: 41px !important;
+            top: 31px !important;
+            max-height: 465px !important;
+        }
+
+    .gm-style div, .gm-style span, .gm-style label {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+
+    .gm-style-iw {
+        overflow: hidden !important;
+    }
+
+    .tableBG {
+        /* background:-moz-linear-gradient(center top , #707070 0%, #5E5E5E 51%, #393939 52%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+        /* background:url('images/bg.jpg') !important; */
+        background: #fff;
+        /*border: 1px solid #a0bee0;*/
+        /*opacity:0.86;*/
+    }
+
+    .ft {
+        width: 25%;
+        color: #000;
+    }
+
+    .map-img img {
+        max-width: 150px !important;
+    }
+
+    .price {
+        float: left;
+        width: 78px;
+        font-weight: bold;
+    }
+
+    .detail {
+        float: right;
+        width: 95px;
+    }
+
+    @media only screen and (min-width: 961px) and (max-width: 1024px) {
+        .price {
+            width: 93px !important;
+        }
+    }
+
+
+
+   
+
+       
+
+    .dnnPrimaryActionBG {
+        /*border-color: #B31F24*/ /*dark blue*/
+        /*background: #3792ED;*/
+        /*background: -moz-linear-gradient(top, #358eea 0%, #2170cd 100%); /* FF3.6+ */
+        /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B31F24), color-stop(100%,#B31F24));*/ /* Chrome,Safari4+ */
+        /*background: -webkit-linear-gradient(top, #B31F24 0%,#B31F24 100%);*/ /* Chrome10+,Safari5.1+ */
+        /*background: linear-gradient(top, #B31F24 0%,#B31F24 100%); /* W3C */
+        /*-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+        box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);*/
+        color: #B31F24;
+        font-weight: bold!important;
+        /*text-shadow: 0px -1px 0px #185B93;
+    }
+
+    .border-box {
+    background: none repeat scroll 0 0 #eaeff9;
+    border: 1px solid #a0bee0;*/
+    }
+</style>
+
+
+
+<div style="width: 195px; height: auto; overflow: hidden; border-radius: 7px; margin-left: 10px; margin-top: 16px; box-shadow: 0 2px 1px #777777; background: #fff;">
+
+    <div class="border-box">
+        <table style="width: 100%; border-radius: 7px; padding: 10px;" class="tableBG">
+            <tr>
+                <td style="padding-top: 1px; text-align: center;">
+                    <div style="color: #2576D3; font-weight: bold; font-family: Roboto,Arial,sans-serif; font-size: 12px; margin-top: 5px; font-weight: bold;">{Address}</div>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="map-img" style="text-align: center;">
+                    <img src="{IMGSRC}" style="border-radius: 6px; border: 1px solid #777; padding: 3px 3px 3px 3px;" /></td>
+            </tr>
+            <tr>
+                <td style="padding-top: 5px; text-align: center;">
+                    <div class="price" style="color: #f60; font-size: 18px;">{price}</div>
+                    <div class="detail"><a class="dnnPrimaryAction" target="_blank" href="{DetailsLink}" style="">Details</a></div>
+
+                </td>
+            </tr>
+
+
+            <!--<tr>
+            <td style="padding-top: 7px;text-align: center;color: #777;  ">
+                <div style="font-size:9px;font-weight:bold;">Courtesy of : <span style="font-size:9px;font-weight:bold;">{Courtesy}</span></div>
+
+            </td>
+        </tr>-->
+
+            <tr>
+                <td style="text-align: center; padding: 6px;">
+                    <table width="100%" style="border-radius: 6px;">
+
+                        <tr>
+                            <td class="dnnPrimaryActionBG" style="color: #2576D3;">Baths</td>
+                            <td class="dnnPrimaryActionBG" style="color: #2576D3;">Bedrooms</td>
+
+
+
+                        </tr>
+                        <tr>
+                            <td style="width: 25%; font-weight: bold;" class="ft">{Bath}</td>
+                            <td style="width: 25%; font-weight: bold;" class="ft">{Beds}</td>
+
+                        </tr>
+                    </table>
+                </td>
+
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <div style="color: #4A4A4A; text-align: center;">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+</div>
