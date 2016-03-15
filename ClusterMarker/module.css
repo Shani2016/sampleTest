@@ -1,0 +1,8114 @@
+﻿html {
+    width: 100%;
+    height: 100%;
+}
+
+#GoogleMap {
+    width: 100%;
+    height: 100%;
+}
+
+.test {
+    background: #000 none repeat scroll 0 0;
+    color: #fff !important;
+    font-size: 14px;
+    opacity: 0.7;
+    padding: 15px;
+    width:100%;
+    z-index: 1;
+    float: right;
+}
+
+.col-map-1 {
+    width: 100%;
+    float: left;
+    z-index: 2;
+}
+
+.col-map-2 {
+    width: 50%;
+    float: left;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 82px !important;
+}
+
+.col-map-3 {
+    width: 30%;
+    float: left;
+}
+
+.propHeader h1 {
+    margin-top: 0;
+}
+
+.propHeader ul li {
+    padding-left: 10px;
+}
+
+.gm-style img {
+    float: left;
+    max-width: none;
+}
+
+.box1 {
+    /*display: block;*/
+    padding: 20px;
+    margin-bottom: 10px; /* SIMPLY SET THIS PROPERTY AS MUCH AS YOU WANT. This changes the space below box1 */
+    text-align: justify;
+}
+
+.wrappertool {
+    text-transform: uppercase;
+    background: #ececec;
+    color: #555;
+    cursor: help;
+    font-family: "Gill Sans", Impact, sans-serif;
+    font-size: 20px;
+    margin: 100px 75px 10px 75px;
+    padding: 15px 20px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    -webkit-transform: translateZ(0); /* webkit flicker fix */
+    -webkit-font-smoothing: antialiased; /* webkit text rendering fix */
+}
+
+    .wrappertool .tooltip {
+        background: #1496bb;
+        bottom: 100%;
+        color: #fff;
+        display: block;
+        left: -25px;
+        margin-bottom: 15px;
+        opacity: 0;
+        padding: 20px;
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+        transform: translateY(10px);
+        -webkit-transition: all .25s ease-out;
+        -moz-transition: all .25s ease-out;
+        -ms-transition: all .25s ease-out;
+        -o-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+        -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+    }
+
+        /* This bridges the gap so you can mouse into the tooltip without it disappearing */
+        .wrappertool .tooltip:before {
+            bottom: -20px;
+            content: " ";
+            display: block;
+            height: 20px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+        }
+
+        /* CSS Triangles - see Trevor's post */
+        .wrappertool .tooltip:after {
+            border-left: solid transparent 10px;
+            border-right: solid transparent 10px;
+            border-top: solid #1496bb 10px;
+            bottom: -10px;
+            content: " ";
+            height: 0;
+            left: 50%;
+            margin-left: -13px;
+            position: absolute;
+            width: 0;
+        }
+
+    .wrappertool:hover .tooltip {
+        opacity: 1;
+        pointer-events: auto;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+.labels {
+    color: red;
+    background-color: white;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    border: 2px solid black;
+    white-space: nowrap;
+}
+
+.ok.mouseover:after, .ok.mouseover:before {
+    background: #33CC33;
+}
+
+
+.data-price-st {
+    color: #dd1144;
+    font-weight: bold;
+}
+
+.mp-data-add {
+    color: #1E88E5;
+    font-weight: bold;
+}
+
+.map {
+    margin-top: 15px !important;
+}
+
+
+body {
+}
+
+.MapModuleWrap .k-i-arrow-s {
+    background-position: 0 -27px !important;
+}
+
+.txtSearchCriteria {
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+}
+
+#dnn_dnnLOGO_imgLogo_3 {
+    height: 78px;
+}
+
+.Map_wrap {
+    height: 600px;
+}
+
+
+.configuration .k-textbox {
+    width: 40px;
+}
+
+.demo-section {
+    width: 660px;
+    padding: 30px;
+    text-align: center;
+}
+
+    .demo-section .k-dropdown {
+        text-align: left;
+    }
+
+.k-button {
+    min-width: 80px;
+}
+
+.configuration-horizontal .options li {
+    padding: 3px 0;
+}
+
+
+
+
+
+.k-list-container {
+    min-width: 200px !important;
+    width: auto !important;
+}
+
+.k-list {
+    width: auto !important;
+}
+
+
+.propertydisplay {
+    color: #F60;
+    font-size: 18px;
+    font-style: normal;
+    text-shadow: 0 1px 1px #C4D6EA;
+}
+
+.BATemplateHeadingStyle1 {
+    background: none repeat scroll 0 0 #eee;
+    box-shadow: 0 -3px 8px 1px #c7c7c7 inset;
+    float: right;
+    margin-right: -11px;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: -11px;
+}
+
+.PropCnt {
+    color: #F60;
+    font-size: 150%;
+    font-style: normal;
+    text-shadow: 0 1px 1px #C4D6EA;
+    font-weight: bold;
+}
+
+.cityname {
+    margin: 0;
+    padding: 0;
+    height: 180px;
+    overflow-y: scroll;
+    font-size: 12px;
+    color: #4F4F4F;
+    text-transform: capitalize;
+    line-height: 23px;
+}
+
+.Shadow_box h2 {
+    color: #01849e;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 20px;
+}
+
+.select_control {
+    width: 100%;
+}
+
+.scrollingControlContainer {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.scrollingCheckBoxList {
+    border: 1px #808080 solid;
+    margin: 0;
+    height: 475px;
+}
+
+a.Power_Search {
+    color: #E05B00!important;
+    font-weight: bold!important;
+    text-decoration: underline!important;
+}
+
+a:hover.Power_Search {
+    color: #E05B00!important;
+    font-weight: bold!important;
+    text-decoration: none!important;
+}
+
+.loading_img {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 9999;
+    float: left;
+}
+
+.handimage {
+    background: url(../../Portals/0/handImages.png)top right no-repeat;
+    bottom: 0;
+    position: relative;
+    height: 30px;
+    width: 27px;
+}
+
+.tableStyle {
+    display: table;
+}
+
+
+
+
+.tableRow {
+    /* display: table-row;*/
+}
+
+.tableCell {
+    /* display: table-cell;*/
+    padding: 3px;
+    float: left;
+    /*width:155px;*/
+}
+
+
+.Shadow_box {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 0 0 12px 12px;
+    box-shadow: -1px 1px 3px #777;
+    margin: 2px auto 0;
+    padding-top: 11px;
+    position: fixed;
+    top: 61px;
+    z-index: 1;
+    padding-left: 0px;
+    width: 93%;
+}
+
+.propertydisplayTxt {
+    background: #1194ae; /* Old browsers */
+    background: -moz-linear-gradient(top, #1194ae 0%, #007890 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1194ae), color-stop(100%,#007890)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1194ae 0%,#007890 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1194ae 0%,#007890 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1194ae 0%,#007890 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #1194ae 0%,#007890 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1194ae', endColorstr='#007890',GradientType=0 ); /* IE6-9 */
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 8px 18px 8px 10px;
+    margin: 5px 0 10px 0;
+    color: #FFF !important;
+    font-weight: bold;
+    font-size: 14px;
+    border-right: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+}
+
+.gmap_search {
+    background: none repeat scroll 0 0 #ECECEC;
+    border: 1px solid #C2C2C2;
+    box-shadow: 0 10px 5px -6px #777777;
+    margin: 0 0 15px;
+    padding: 15px 15px 10px;
+    width: 90.5%;
+}
+
+
+
+.QuickSearchWrap {
+    /*display: table-cell;*/
+    float: left;
+    width: 100%;
+}
+
+.col-md-9 {
+    width: 100% !important;
+}
+
+.MapModuleWrap {
+    width: 100%;
+}
+
+.mapdisplaywrap {
+    /*display: table-cell;*/
+    /*width: 100%;
+    /*min-width:500px;*/
+    margin-bottom: 1%;
+}
+
+
+.propertydisplayWrap {
+    background: #fff!important; /* Old browsers */
+    /*background: -moz-linear-gradient(top, #f2f2f2 0%, #e3e3e3 100%); /* FF3.6+ */
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#e3e3e3));*/ /* Chrome,Safari4+ */
+    /*background: -webkit-linear-gradient(top, #f2f2f2 0%,#e3e3e3 100%);*/ /* Chrome10+,Safari5.1+ */
+    /*background: -o-linear-gradient(top, #f2f2f2 0%,#e3e3e3 100%);*/ /* Opera 11.10+ */
+    /*background: -ms-linear-gradient(top, #f2f2f2 0%,#e3e3e3 100%);*/ /* IE10+ */
+    /*background: linear-gradient(to bottom, #f2f2f2 0%,#e3e3e3 100%);*/ /* W3C */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
+    /*padding: 0 10px 4px 0;*/ /*/
+    /*-webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;*/
+    width: 100%!important;
+    /*height: 26px;*/
+}
+
+
+
+
+
+.text-box-c {
+    width: 120px;
+    font-size: 12px;
+}
+
+.sel-box {
+    width: 105px !important;
+    font-size: 12px !important;
+}
+
+    .sel-box input {
+        width: 102px !important;
+    }
+
+
+.img-List {
+    height: 80px !important;
+    width: 100px !important;
+    padding: 5px 5px 5px 5px !important;
+    border: 1px solid #d7d7d7;
+    margin-top: 0px !important;
+}
+
+.add-price-div {
+    border-bottom: 1px solid #d7d7d7;
+    margin: 5px 0px 0px 5px !important;
+    font-family: inherit !important;
+    font-weight: bold !important;
+    color: #666 !important;
+    text-align: center !important;
+}
+
+.search-result {
+    padding: 5px 0px 0px 5px !important;
+}
+
+.detail_list {
+    border: 1px solid #777;
+    /* padding: 5px 0px 0px 4px; */
+    margin: 6px 3px -5px 3px;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 1px 2px 3px #999;
+}
+
+.relate_list {
+    /*   border: 1px solid #777;
+    padding: 5px 0px 0px 4px; 
+    margin: 6px 3px -5px 3px;
+    border-radius: 7px;
+        float:left;
+    background: #fff;*/
+    box-shadow: 1px 2px 3px #999;
+    width: 165px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.search-details-info {
+    font-size: 12px;
+}
+
+.bed_val {
+    color: #666!important;
+}
+
+.bath_val {
+    color: #666!important;
+}
+
+.mls_val {
+    color: #666!important;
+}
+
+.hide_show {
+    background: #2373d0;
+    color: #fff;
+    padding: 4px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 2px 2px #555;
+    position: fixed;
+    z-index: 1;
+    right: 2px;
+    /*  float:left;*/
+    /*top: 23%!important;*/
+    display: none;
+}
+
+/*#FEL_listView
+{
+      -webkit-transition: width 2s; 
+    transition: width 2s;
+}*/
+
+.price-clr {
+    color: #F60;
+}
+
+
+#btnShowHideList {
+    color: #fff !important;
+}
+
+
+
+.detail {
+    padding-right: 12px!important;
+}
+
+    .detail a {
+        padding: 2px 0px 0px 0px!important;
+    }
+
+.list_propert {
+    border: 2px solid #F60!important;
+    border: 1px solid #777;
+    /* padding: 5px 0px 0px 4px; */
+    margin: 6px 3px -5px 3px;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 1px 2px 3px #999;
+}
+
+
+.mapWrapper {
+    border-left: 0px solid #007890;
+    border-right: 0px solid #007890;
+    box-shadow: 0 1px 4px #777;
+    height: 587px;
+    background-color: #fff!important;
+}
+
+.Mapwrap {
+    width: 78%;
+    height: 92%;
+    float: right;
+}
+
+.map {
+    margin-top: 18px!important;
+}
+
+
+
+.Map_help FL {
+    margin: 10px -12px 0px 0px;
+}
+
+.propertydisplay img {
+    width: 12%!important;
+}
+
+.propertydisplay {
+    margin-left: -2%!important;
+}
+
+.gmap_prop {
+    margin-top: 10px!important;
+}
+
+.FlR {
+    float: right;
+    padding-right: 30px;
+}
+
+.Map_help {
+    display: inline;
+    width: 200px;
+}
+
+.Gmap-property-list {
+    width: 22%;
+}
+/*-------- Property Legend -----------*/
+/*b tag -  .txt-style_PT  .list_count_cls 
+
+inner div -  .txt-style_PT     .list_count_cls1*/ /* ---------- Property List Count Message -------*/
+.list_count_cls {
+    float: left;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.list_count_cls1 {
+    float: left;
+}
+
+#property_count {
+    float: left;
+    height: 30px;
+    width: 20%;
+    padding-top: 4px;
+}
+
+#prop_guide {
+    float: left;
+    /*height:35px;*/ /* -Change by Gaurav*/
+    height: auto;
+    padding-top: 5px;
+    width: 66%;
+    /*display: inline;*/
+}
+
+#property_count {
+    /*padding:*/
+}
+/* ---------- End Css of Property List Count Message -------*/
+
+#property_type_legend {
+    height: 35px;
+    padding-top: 5px;
+    color: #FF893B;
+    font-weight: bold;
+    float: left;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*img .drawR, img .clearR {
+    border: 3px solid red;
+}*/
+#draw a img,
+#clearPoly a img {
+    border: 3px solid red;
+}
+
+#drawR {
+    position: absolute;
+    background: rgba(51, 204, 57, 0.73);
+}
+
+#clearR {
+    position: absolute;
+    background: rgba(250, 45, 45, 0.66);
+}
+
+.drawClearR {
+    position: absolute;
+}
+
+.tooltip {
+    text-decoration: none;
+    position: relative;
+}
+
+    .tooltip span {
+        display: none;
+    }
+
+    .tooltip:hover span {
+        display: block;
+        position: fixed;
+        overflow: hidden;
+    }
+/*----------- Image size change by Gaurav-------*/
+img#drawR,
+img#clearR {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/*-----------End ---------------------*/
+@media only screen and (max-width:1024px) {
+    .sel-box {
+        width: 82px !important;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .sel-box {
+        width: 82px !important;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .sel-box {
+        width: 82px !important;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    sel-box-m {
+        width: 72px !important;
+    }
+
+    .sel-box {
+        width: 92px !important;
+        font-size: 12px;
+    }
+
+        .sel-box input {
+            width: 89px !important;
+        }
+}
+
+@media only screen and (max-width:1400px) {
+
+    .sel-box {
+        width: 92px !important;
+        font-size: 12px;
+    }
+
+        .sel-box input {
+            width: 89px !important;
+        }
+}
+
+@media only screen and (max-width:320px) {
+    .sel-box {
+        width: 120px !important;
+        font-size: 12px;
+    }
+
+    .tableStyle {
+        margin: 0 auto !important;
+        width: 58% !important;
+    }
+
+
+    .map {
+        margin-top: -40px !important;
+    }
+
+    .gmap_prop {
+        width: 60% !important;
+    }
+
+    .Mapwrap {
+        width: 97% !important;
+        height: 500px !important; /*height: 64% !important;*/ /* -Gmap */
+    }
+
+    .hide_show {
+        display: none;
+    }
+
+    .Map_help {
+        margin-left: 18%;
+    }
+
+    .mapWrapper {
+        border-left: 0px solid #007890;
+        /* border-radius: 16px; */
+        border-right: 0px solid #007890;
+        box-shadow: 0 1px 4px #777;
+        height: 785px !important;
+        background-color: #fff !important;
+        /* margin: 75px 0!important; */
+    }
+}
+
+@media only screen and (max-width:360px) {
+}
+
+@media only screen and (max-width:380px) {
+    .sel-box {
+        width: 120px !important;
+        font-size: 12px;
+    }
+
+    .tableStyle {
+        margin: 0 auto !important;
+        width: 58% !important;
+    }
+}
+
+
+@media only screen and (max-width:384px) {
+}
+
+@media only screen and (max-width:420px) {
+    .sel-box {
+        width: 120px !important;
+        font-size: 12px;
+    }
+
+    .tableStyle {
+        margin: 0 auto !important;
+        width: 58% !important;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    sel-box-m {
+        width: 72px !important;
+    }
+
+    .sel-box {
+        width: 120px !important;
+        font-size: 12px;
+    }
+
+    .tableStyle {
+        margin: 0 auto !important;
+        width: 67% !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+    .k-input, input.k-textbox, textarea.k-textbox, input.k-textbox:hover, textarea.k-textbox:hover, .k-textbox > input, .k-multiselect-wrap {
+        font-size: 9px !important;
+    }
+
+    .sel-box {
+        width: 120px !important;
+        font-size: 12px;
+    }
+
+    .tableStyle {
+        margin: 0 auto !important;
+        width: 58% !important;
+    }
+
+    .propertydisplay {
+        font-size: 12px !important;
+    }
+
+    .Shadow_box {
+        position: relative !important;
+        top: -61px !important;
+        margin-bottom: -132px !important;
+    }
+
+    .gmap_prop {
+        width: 63% !important;
+    }
+
+    .map {
+        margin-top: -40px!important;
+    }
+
+    .gmap_prop {
+        width: 60% !important;
+    }
+    /* -Gmap */
+    #FEL_listView {
+        height: 165px !important;
+        /*margin-top: -170px !important;*/
+        width: 98% !important;
+    }
+    /* -Gmap */
+    #FEL_listView {
+        height: 134px !important;
+        margin-top: 3px !important;
+        width: 98% !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        /* margin-right: -26px !important; */
+        margin-top: 10px;
+        /* z-index: 5; */
+        position: absolute !important;
+        margin-left: 256px !important;
+        border-radius: 2px;
+        margin-left: 10px !important;
+    }
+
+    #property_type_legend {
+        height: 25px !important;
+        padding-top: 5px;
+        color: #FF893B;
+        font-weight: bold;
+        float: left;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Main-Prop-Div {
+        height: 333px !important;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:320px) {
+    .test {
+        font-size: 11px !important;
+    }
+}
+
+@media only screen and (min-width: 384px) and (max-width: 384px) {
+    .Map_help {
+        margin-left: -52% !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 400px) {
+    .k-input, input.k-textbox, textarea.k-textbox, input.k-textbox:hover, textarea.k-textbox:hover, .k-textbox > input, .k-multiselect-wrap {
+        font-size: 9px !important;
+    }
+
+    .sel-box {
+        width: 120px !important;
+        font-size: 12px;
+    }
+
+    .tableStyle {
+        margin: 0 auto !important;
+        width: 58% !important;
+    }
+
+    .propertydisplay {
+        font-size: 12px !important;
+    }
+
+    .Shadow_box {
+        position: relative !important;
+        top: -61px !important;
+        margin-bottom: -132px !important;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    /* ------- -Gmap ------- Cluster Map*/
+    .Mapwrap {
+        width: 97% !important;
+        height: 380px !important;
+    }
+
+    #FEL_listView {
+        margin-top: -62px !important;
+        height: 133px !important;
+    }
+
+    .detail_list {
+        width: 97% !important;
+        height: 123px !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 30px !important;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+
+    /* ---------------------------*/
+
+
+    .k-input, input.k-textbox, textarea.k-textbox, input.k-textbox:hover, textarea.k-textbox:hover, .k-textbox > input, .k-multiselect-wrap {
+        font-size: 9px !important;
+    }
+
+    .sel-box {
+        width: 120px !important;
+        font-size: 12px;
+    }
+
+    .tableStyle {
+        margin: 0 auto !important;
+        width: 58% !important;
+    }
+
+    .propertydisplay {
+        font-size: 12px !important;
+    }
+
+    .Shadow_box {
+        position: relative !important;
+        top: -61px !important;
+        margin-bottom: -132px !important;
+    }
+
+    .Mapwrap {
+        width: 97% !important;
+        height: 72% !important;
+    }
+
+    .hide_show {
+        display: none;
+    }
+
+    .FL {
+        margin-top: 0px!important;
+    }
+
+    .gmap_prop {
+        width: 40% !important;
+    }
+
+    .Gmap-property-list {
+        width: 97% !important;
+    }
+
+    .map {
+        margin-top: -40px!important;
+    }
+
+    .Map_help {
+        margin-left: 28% !important;
+    }
+    /* ---------- -Gmap ---- CLuster Map ----*/
+    .Mapwrap {
+        width: 97% !important;
+        height: 380px !important;
+    }
+    /*-------- End --------------*/
+}
+
+@media only screen and (min-width: 414px) and (max-width: 414px) {
+    /* -------- Cluster Marker -------- -Gmap */
+    /* -------------------------------------- */
+    .gmap_prop {
+        width: 37% !important;
+        margin-left: -29px!important;
+    }
+
+    .Map_help {
+        margin-left: 18% !important;
+    }
+
+    .Mapwrap {
+        width: 97% !important;
+        height: 76% !important;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 640px) {
+    /* ---------- Property List Count Message -------*/
+    #property_type_legend {
+        height: 25px !important;
+    }
+
+    .mapdisplaywrap #prop_guide {
+        float: none;
+        width: 100% !important;
+    }
+
+    .mapdisplaywrap #property_count {
+        float: right;
+        height: 28px !important;
+        width: 34% !important;
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+    /*---------Cluster Map -------------  -Gmap ---*/
+    #GoogleMap1,
+    .Mapwrap {
+        width: 60%!important;
+        height: 500px !important;
+    }
+
+    #FEL_listView {
+        margin-top: 0px !important;
+        height: 500px!important;
+    }
+
+    img .drawR, img .clearR {
+        border: 3px solid red;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 200px !important;
+        margin-top: 10px !important;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+
+    .search-img .img-List {
+        height: 65px !important;
+        width: 65px !important;
+        padding: 5px 5px 5px 5px !important;
+        border: 1px solid #d7d7d7;
+        margin-top: 0px !important;
+    }
+    /*------------- End --------------------*/
+    .propertydisplay {
+        margin-left: -2% !important;
+    }
+
+    .Map_help {
+        width: 138px !important;
+    }
+
+    .img-List {
+        height: 78px !important;
+        width: 150px !important;
+    }
+
+    .Gmap-property-list {
+        width: 38% !important;
+    }
+
+    .Mapwrap {
+        width: 70%!important;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+    sel-box-m {
+        width: 72px !important;
+    }
+
+    .sel-box {
+        width: 120px !important;
+        font-size: 12px;
+    }
+
+    .tableStyle {
+        margin: 0 auto !important;
+        width: 67% !important;
+    }
+
+    .propertydisplay {
+        font-size: 12px !important;
+    }
+
+    .Shadow_box {
+        position: relative !important;
+        top: -61px !important;
+        margin-bottom: -132px !important;
+    }
+
+
+    .Mapwrap {
+        height: 91% !important;
+    }
+
+    .gmap_prop {
+        margin-left: 50px!important;
+        width: 40%!important;
+        margin-top: 16px!important;
+    }
+
+    #FEL_listView {
+        margin-top: -581px !important; /*  -- -Gmap ---*/
+        height: 557px!important;
+    }
+
+    .hide_show {
+        display: none;
+    }
+
+    .FL {
+        margin-top: 2px !important;
+    }
+
+    .map {
+        margin-top: -40px !important;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 640px) and (orientation:landscape) {
+    #leftmap #FEL_listView,
+    #leftmap .Gmap-property-list {
+        margin-top: 0px !important;
+        height: 500px !important;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 568px) {
+    .bed_val {
+        font-size: 10px;
+    }
+
+    .bath_val {
+        font-size: 10px;
+    }
+
+    .mls_val {
+        font-size: 10px;
+    }
+
+    .propertydisplay {
+        margin-left: 0%!important;
+    }
+
+    .gmap_prop {
+        margin-left: -62px !important;
+        width: 31% !important;
+    }
+
+    .img-List {
+        height: 55px !important;
+        width: 50px !important;
+    }
+
+    .border-grid {
+        margin-left: 7px !important;
+    }
+    /* ------------- Cluster Map ------------- */
+    .Mapwrap {
+        width: 58% !important;
+        height: 350px !important; /*  -Gmap -----*/
+    }
+
+    #FEL_listView {
+        margin-top: -351px !important;
+        height: 350px !important;
+    }
+
+    #FEL_listView { /*  -Gmap -----*/
+        margin-top: -351px !important;
+        height: 350px !important;
+        width: 40% !important;
+    }
+
+    .Gmap-property-list {
+        width: 40% !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 277px !important;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+
+    .gmnoprint {
+        right: 34px !important;
+    }
+
+    .mapWrapper {
+        height: 440px !important;
+    }
+}
+
+@media only screen and (min-width: 604px) and (max-width: 604px) {
+    /* ---------- Property List Count Message -------*/
+    #property_type_legend {
+        height: 25px !important;
+    }
+
+    #prop_guide {
+        float: none;
+        width: 100% !important;
+    }
+
+    #property_count {
+        float: right;
+        width: 38% !important;
+        padding-top: 4px !important;
+    }
+
+    /* ---------- End Css of Property List Count Message -------*/
+    /*----------- Cluster Map -------------*/
+    #leftmap .Mapwrap {
+        height: 500px !important;
+        float: left;
+    }
+
+    #leftmap .Mapwrap {
+        width: 60% !important;
+    }
+
+    #leftmap #FEL_listView {
+        margin-top: -500px !important;
+        height: 500px !important;
+        width: 40% !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 190px !important;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+
+    .search-img .img-List {
+        height: 65px !important;
+        width: 65px !important;
+        padding: 5px 5px 5px 5px !important;
+        border: 1px solid #d7d7d7;
+        margin-top: 0px !important;
+    }
+    /*----------------End-----------------*/
+
+    .gmap_prop {
+        margin-left: -30px!important;
+    }
+
+    .img-List {
+        height: 55px !important;
+        width: 50px !important;
+    }
+
+    .Mapwrap {
+        width: 58% !important;
+    }
+
+    .Gmap-property-list {
+        width: 40% !important;
+    }
+
+    .bed_val {
+        font-size: 10px;
+    }
+
+    .bath_val {
+        font-size: 10px;
+    }
+
+    .mls_val {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 736px) {
+    /* ---------- Property List Count Message -------*/
+    #property_type_legend {
+        height: 25px;
+    }
+
+    .mapdisplaywrap #property_count {
+        float: right;
+        height: 27px !important;
+        width: 32% !important;
+    }
+
+    .mapdisplaywrap #prop_guide {
+        float: none;
+        width: 100% !important;
+    }
+
+
+    /* ---------- End Css of Property List Count Message -------*/
+    /* ----------- Cluster Map -------------*/
+    #GoogleMap1,
+    .Mapwrap {
+        width: 63% !important;
+        height: 550px !important;
+    }
+
+    #FEL_listView {
+        background: #fff!important;
+        height: 500px;
+        margin: 0px auto;
+        overflow-x: scroll;
+        float: right;
+        overflow-y: no-display;
+        margin-top: -501px;
+        margin-right: 10px;
+        /*width: 194px !important;*/
+        width: 35% !important;
+    }
+
+    .search-img .img-List {
+        height: 80px !important;
+        width: 70px!important;
+        padding: 5px 5px 5px 5px!important;
+        border: 1px solid #d7d7d7;
+        margin-top: 0px!important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    #drawClear,
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 213px !important;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+    /* -------------------------------------*/
+    .map {
+        margin-top: -40px!important;
+    }
+
+    .img-List {
+        width: 80px!important;
+    }
+}
+
+
+
+@media only screen and (min-width: 641px) and (max-width: 720px) {
+
+    #FEL_listView {
+        margin-top: -565px !important;
+        width: 45%!important;
+        height: 548px!important;
+    }
+
+    .map {
+        margin-top: 100px!important;
+    }
+
+    .gmap_prop {
+        width: 45% !important;
+    }
+
+    #FEL_listView {
+        margin-top: -577px !important;
+        width: 32%!important;
+        height: 563px!important;
+    }
+
+    .hide_show {
+        display: none;
+    }
+
+    .Mapwrap {
+        width: 61% !important;
+    }
+
+    .img-List {
+        height: 50px !important;
+        width: 38px !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+    .gmap_prop {
+        margin-left: -96px !important;
+    }
+
+    .img-List {
+        height: 65px !important;
+        width: 50px !important;
+    }
+
+    .Gmap-property-list {
+        width: 45% !important;
+    }
+
+    .Mapwrap {
+        width: 56% !important;
+    }
+
+    .bed_val {
+        font-size: 10px;
+    }
+
+    .bath_val {
+        font-size: 10px;
+    }
+
+    .mls_val {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+    .map {
+        margin-top: 45px !important;
+    }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 768px) {
+    /* ---------- Property List Count Message -------*/
+    #property_type_legend {
+        height: 25px !important;
+    }
+
+    #prop_guide {
+        float: none;
+    }
+
+    #property_count {
+        float: right;
+        width: 35% !important;
+        padding-top: 4px !important;
+    }
+
+        #property_count .list_count_cls {
+            font-size: 17px !important;
+        }
+
+        #property_count .list_count_cls1 {
+            font-size: 14px !important;
+        }
+    /* ---------- End Css of Property List Count Message -------*/
+    /* ----------- Cluster Map -------------*/
+    .Mapwrap {
+        width: 62% !important;
+        height: 550px !important;
+    }
+    /* -------------------------------------*/
+
+    .Shadow_box {
+        top: 44px !important;
+        width: 97% !important;
+    }
+
+    .img-List {
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+    .hide_show {
+        display: none;
+    }
+
+    .Gmap-property-list {
+        width: 36% !important;
+    }
+
+    .gmap_prop {
+        width: 50% !important;
+    }
+
+    .Mapwrap {
+        /*width: 62% !important;
+        height: 90% !important;*/ /* -Gmap */
+    }
+
+    #FEL_listView {
+        height: 550px !important;
+        margin-top: 0px !important; /*margin-top: -576px !important;*/ /* -Gmap*/
+    }
+
+    /*#first {
+        background: #000 none repeat scroll 0 0;
+        color: #fff !important;
+        font-size: 14px !important;
+        opacity: 0.7 !important;
+        padding: 15px !important;
+        
+        width:100% !important;
+        z-index: 1;
+        float: right;
+    }*/
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 320px !important;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:768px) and (orientation:portrait) {
+}
+
+@media only screen and (max-width: 1024px) and (orientation:landscape) {
+}
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+    .Mapwrap {
+        width: 65% !important;
+    }
+
+    .gmap_prop {
+        width: 40% !important;
+    }
+
+    .Gmap-property-list {
+        width: 34% !important;
+    }
+
+    #FEL_listView {
+        margin-top: -580px !important;
+    }
+
+    .hide_show {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        width: 55% !important;
+    }
+
+    .mapdisplaywrap #property_count {
+        width: 22% !important;
+        padding-top: 6px;
+    }
+
+    #property_count .list_count_cls {
+        font-size: 17px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 13px !important;
+        margin-top: 3px;
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+    /*------------ Css for Cluster Map ----------*/
+
+    .Mapwrap {
+        height: 500px !important;
+    }
+
+    .Mapwrap {
+        width: 68% !important;
+        height: 92%;
+        float: right;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        margin-right: 350px !important;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+    /*------------ Cluster Map End --------------*/
+
+
+    .sel-box {
+        width: 82px !important;
+        font-size: 12px;
+    }
+
+    .Shadow_box {
+        top: 54px !important;
+    }
+
+    .sel-box input {
+        width: 79px !important;
+    }
+
+    .Mapwrap {
+        /*height: 91% !important;*/
+    }
+
+    .Map_help {
+        width: 270px !important;
+    }
+
+    #FEL_listView {
+        width: 31%;
+    }
+
+    .gmap_prop {
+        width: 58% !important;
+    }
+
+    .places-nearby-div {
+        margin-top: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1136px) {
+
+    .Gmap-property-list {
+        width: 28% !important;
+    }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1050px) {
+    .hide_show {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 667px) {
+    /* ---------- Property List Count Message -------*/
+    .mapdisplaywrap #property_count {
+        float: right;
+        height: 27px !important;
+        width: 36% !important;
+    }
+
+    .mapdisplaywrap #prop_guide {
+        float: none;
+        width: 100% !important;
+    }
+
+    /* ---------- End Css of Property List Count Message -------*/
+    /* ------ Cluster Map ------ -Gmap ---*/
+    
+    .img-List {
+        height: 80px !important;
+        width: 180px !important;
+        padding: 5px 5px 5px 5px !important;
+        border: 1px solid #d7d7d7;
+        margin-top: 0px !important;
+    }
+
+    #FEL_listView {
+        margin-top: -500px !important;
+        width: 38% !important;
+        height: 500px !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 231px !important;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+    /* --------End ----------------------- */
+    .map {
+        margin-top: -40px !important;
+    }
+
+    .img-List {
+        width: 180px !important;
+    }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1080px) {
+    .hide_show {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1137px) and (max-width: 1280px) {
+
+
+    sel-box-m {
+        width: 72px !important;
+    }
+
+    .sel-box {
+        width: 92px !important;
+        font-size: 12px;
+    }
+
+        .sel-box input {
+            width: 89px !important;
+        }
+
+    .map {
+        margin-top: 18px !important;
+    }
+
+    .Gmap-property-list {
+        width: 22% !important;
+    }
+
+    .Mapwrap {
+        width: 78%;
+    }
+
+    .img-List {
+        height: 90px !important;
+        width: 90px !important;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1360px) {
+
+    .img-List {
+        width: 85px !important;
+    }
+}
+
+@media only screen and (min-width: 1361px) and (max-width: 1366px) {
+    #ws-walkscore-tile {
+        z-index: 1;
+        width: 48% !important;
+        float: right;
+        display: inline-grid !important;
+        clear: both;
+        margin-top: -362px !important;
+        height: 361px !important;
+    }
+
+    .img-List {
+        width: 75px !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 330px;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+    .sel-box {
+        width: 92px !important;
+        font-size: 12px;
+    }
+
+        .sel-box input {
+            width: 89px !important;
+        }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+
+    .propertydisplay {
+        margin-left: 0% !important;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+    .Map_help {
+        width: 142px !important;
+    }
+
+    .gmap_prop {
+        margin-left: 10px !important;
+    }
+
+    .search-result {
+        padding: 3px 0px 0px 9px !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 400px) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        float: none;
+    }
+
+    /* ---------- End Css of Property List Count Message -------*/
+    /*------------ Cluster Map ------- -Gmap -----*/
+    .mapWrapper {
+        border-left: 0px solid #007890;
+        border-right: 0px solid #007890;
+        box-shadow: 0 1px 4px #777;
+        height: 665px !important;
+        background-color: #fff !important;
+    }
+
+    #GoogleMap1,
+    .Mapwrap {
+        width: 97% !important;
+        height: 500px !important;
+    }
+
+    #leftmap #FEL_listView {
+        height: 134px !important;
+        margin-top: -95px !important;
+        width: 97% !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 15px !important;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+
+    #property_type_legend {
+        height: 25px !important;
+        padding-top: 5px;
+        color: #FF893B;
+        font-weight: bold;
+        float: left;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .test {
+        font-size: 12px !important;
+    }
+
+    .detail_list {
+        border: 1px solid #777;
+        /* padding: 5px 0px 0px 4px; */
+        margin: 6px 3px -5px 3px;
+        border-radius: 7px;
+        background: #fff;
+        box-shadow: 1px 2px 3px #999;
+        height: 123px !important;
+    }
+    /*------------ End -------------------*/
+    .hide_show {
+        display: none;
+    }
+
+    .map {
+        margin-top: -40px !important;
+    }
+
+    .Map_help {
+        margin-left: 31%;
+    }
+
+    .Gmap-property-list {
+        width: 97%;
+    }
+
+    #FEL_listView {
+        height: 98px !important;
+        margin-top: -112px !important;
+    }
+
+    .Mapwrap {
+        width: 97% !important;
+        height: 70% !important;
+    }
+}
+
+@media only screen and (min-width: 2561px) and (max-width: 2880px) {
+    .Mapwrap {
+        height: 90% !important;
+    }
+
+    .propertydisplay {
+        margin-left: 1% !important;
+    }
+
+    #FEL_listView {
+        height: 552px !important;
+        margin-top: -599px !important;
+    }
+}
+
+@media only screen and (min-width: 2049px) and (max-width: 2560px) {
+    .propertydisplay {
+        margin-left: 1% !important;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2048px) {
+    .propertydisplay {
+        margin-left: 0% !important;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+    .propertydisplay {
+        margin-left: 0% !important;
+    }
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 375px) {
+    .map {
+        margin-top: -42px !important;
+    }
+
+    .hide_show {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 800px) and (orientation: portrait) {
+
+
+    .map {
+        margin-top: 26px !important;
+    }
+}
+
+.price-clr {
+    color: #F60;
+}
+
+.bed_val {
+    color: #666!important;
+}
+
+.bath_val {
+    color: #666!important;
+}
+
+.mls_val {
+    color: #666!important;
+}
+
+.list_propert {
+    border: 2px solid #F60 !important;
+    border: 1px solid #777;
+    /* padding: 5px 0px 0px 4px; */
+    margin: 6px 3px -5px 3px;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 1px 2px 3px #999;
+}
+
+
+.slider {
+    position: relative;
+}
+
+.slider {
+    position: absolute;
+    z-index: 100;
+    width: 700px;
+    height: 540px;
+    border: solid 1px #CCC;
+    padding: 5px;
+    right: 0;
+    /*background: rgb(255,255,255);*/
+    background-color: aliceblue;
+    /*background: rgba(255,255,255,0.8);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff,endColorstr=#ccffffff);*/
+    display: none;
+}
+
+.map-data {
+    height: 500px;
+    float: left;
+}
+
+.gm-style {
+}
+
+.data-price-st {
+    color: #dd1144;
+    font-weight: bold;
+}
+
+.mp-data-add {
+    color: #1E88E5;
+    font-weight: bold;
+    font-size: x-small;
+}
+/* Changes for Draw and Clear Button--------*/
+#prop_type_legend {
+    height: 35px;
+    padding-top: 5px;
+    width: auto;
+    float: left;
+    font-weight: bold;
+    color: #FF781E;
+}
+/*img .drawR, img .clearR {
+    border: 3px solid red;
+}*/
+#draw a img#drawR {
+    border: 3px solid #33CC33 !important;
+}
+
+#clearPoly a img#clearR {
+    border: 3px solid #f20909 !important;
+}
+
+.drawClear {
+    background: rgb(255, 255, 255);
+    opacity: 0.98;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    float: left;
+    margin-bottom: -150px;
+    margin-right: 370px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+#draw {
+    z-index: 1;
+    position: relative;
+    padding: 5px;
+}
+
+#clearPoly {
+    z-index: 1;
+    position: relative;
+    padding: 5px;
+}
+/* ------- Uncomment code - Gaurav*/
+.addBorder {
+    border: 3px solid red !important;
+}
+/*------- CSS for Draw Button ----------*/
+.btndraw {
+    background: #55C355;
+}
+
+a img#drawR:active {
+    /*color: orange;
+    font-size: 18px;
+    border: 3px green solid;*/
+}
+
+a img#clearR:active {
+    /*color: orange;
+    font-size: 18px;
+    border: 3px #17e875 solid;*/
+}
+
+a img#clearR:active {
+    /*border: 3px #17e875 solid;*/
+}
+
+/*#drawClear {
+    float: right;
+    margin-right: 350px;
+    z-index: 1;
+    position: relative;
+}*/
+/*#clearPoly {*/
+/* float: left; */
+/*z-index: 1;
+    position: relative;*/
+/*float: right;*/
+/*background-color: #fff;*/
+/*margin-right: 5px;*/
+/*height: auto;
+    width: 50px;*/
+/*text-align: center;
+    margin-top: 10px;*/
+/*}*/
+/*#draw {
+	z-index: 1;
+    position: relative;*/
+/*float: right;
+    margin-right: 380px;*/
+/*background-color: #fff;*/
+/*height: auto;
+    width: 70px;*/
+/*text-align: center;*/
+/*margin-top: 10px;*/
+/*}*/
+
+/*#GoogleMap1 {
+	margin-top: -61px;
+}*/
+
+
+/* ------------ End ------------- */
+/****classes for showing propertydetails template******/
+
+.search-mort {
+    margin-top: 35px;
+}
+
+.hp_featured_title {
+    border: 1px solid #EFEFEF;
+    color: #2373D0;
+    font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.hp_div_Mortgage ul li {
+    list-style: none;
+    padding: 2px 0;
+}
+
+.hp_div_Mortgage label {
+    color: #777;
+    width: 137px;
+    font-weight: normal;
+}
+
+.hp_div_Mortgage {
+    max-width: 420px;
+    padding: 4px;
+    margin-bottom: 12px;
+    min-height: 235px;
+}
+
+.hp_link-prof-hover {
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.hp_phone_email {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+}
+
+.hp_phone-st {
+}
+
+
+.hp_name {
+    text-align: center;
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+
+
+    .hp_name span {
+        font-size: 19px;
+        color: #78736f;
+    }
+
+.ul.div_AgentBlockForm li .hp_prof_txt {
+}
+
+
+
+.Lender-hw_prof_pic_hp {
+    display: block;
+    left: -26px;
+    position: absolute;
+    top: -31px;
+}
+
+    .Lender-hw_prof_pic_hp img {
+        height: auto;
+        width: auto;
+        border-radius: 5%;
+        max-height: 117px;
+        max-width: 117px;
+    }
+
+.listing_lbl {
+    color: #444;
+    margin-left: 6%;
+}
+
+
+.view_more_listing_btn {
+    margin-top: 20px;
+}
+
+
+.hw_prof_pic_hp {
+    /*display: block;
+  left: -20px;
+  position: absolute;
+  top: -30px;*/
+}
+
+.hp_Lender-hw_prof_pic {
+}
+
+    .hp_Lender-hw_prof_pic img {
+        max-width: 125px;
+        border-radius: 2%;
+        height: auto;
+        width: auto;
+        max-height: 125px;
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+
+.hw_prof_pic_hp img {
+    max-width: 125px;
+    border-radius: 2%;
+    height: auto;
+    width: auto;
+    max-height: 125px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+.k-autocomplete.k-state-default, .k-picker-wrap.k-state-default, .k-numeric-wrap.k-state-default, .k-dropdown-wrap.k-state-default {
+    font-size: 12px;
+}
+
+.disable {
+    pointer-events: none;
+    cursor: default;
+}
+
+.prev-btn {
+    float: left;
+    height: 100px;
+}
+
+    .prev-btn a {
+        position: relative;
+        top: 0px;
+        color: #fff;
+    }
+
+        .prev-btn a:hover {
+            opacity: 0.5;
+            color: #fff;
+        }
+
+
+.next-btn {
+    float: right;
+}
+
+    .next-btn a {
+        color: #fff;
+        height: 100px;
+        left: 21px;
+        position: relative;
+        top: 27px;
+    }
+
+        .next-btn a:hover {
+            opacity: 0.5;
+        }
+
+
+.sel-box_1 {
+    width: 90px;
+    font-size: 12px;
+}
+
+
+.txt-style_H {
+    font-size: 12px;
+}
+
+.Property-img-thumb {
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+    height: 100px !important;
+    padding: 2px;
+    width: 124px;
+    float: left;
+}
+
+.add {
+    font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    padding-left: 10px;
+    color: #777;
+    position: relative;
+    top: 6px;
+    left: 9px;
+}
+
+ul.div_AgentBlockForm li .name {
+    font-size: 15px;
+}
+
+.listview {
+    width: 90%;
+}
+
+.listing-header-stat {
+    display: block;
+    float: left;
+}
+
+.propHeader h1 {
+    margin-top: 0;
+}
+
+.propHeader ul li {
+    padding-left: 10px;
+}
+
+.txt-style {
+    color: #00AA08;
+    font-size: 20px;
+}
+
+.hp_agentname {
+    text-align: center;
+    color: #3289E5;
+    font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+    font-size: 26px;
+}
+
+.hp_PublicRemarkBG {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    height: 20px;
+    line-height: 38px;
+    color: #2373D0;
+}
+/* --------- -Gmap --- Cluster Map-----------*/
+#ws-walkscore-tile {
+    z-index: 0;
+    width: 48% !important;
+    float: right !important;
+    display: inline-grid !important;
+    clear: both;
+    /*margin-top: -362px !important;
+    height: 361px !important;*/
+    margin-top: -300px !important;
+    height: 310px !important;
+    margin-right: -22px !important;
+}
+
+.map-canvas {
+    position: relative;
+    /*width: 75% !important;*/
+    width: 103% !important;
+    /*height: 360px;*/
+    height: 300px !important;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 1px 5px #777777;
+}
+/*.map_space {
+    float:right !important;
+}*/
+/*.places-nearby-div {
+    float: right !important;
+    margin-left: 550px !important;
+}*/
+/* ----------- End -Gmap ------------*/
+.tree-colRow h4 {
+    font-weight: bold;
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #eee;
+    color: #3E3E3E;
+    font-family: verdana;
+    font-size: 13px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    box-shadow: 1px 2px 1px #CCCCCC;
+}
+
+.HeadBG {
+    background: -moz-linear-gradient(left, rgba(48,135,228,1) 0%, rgba(48,135,228,0.99) 1%, rgba(125,185,232,0.6) 70%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(48,135,228,1)), color-stop(1%,rgba(48,135,228,0.99)), color-stop(70%,rgba(125,185,232,0.6)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(48,135,228,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(48,135,228,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(48,135,228,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(48,135,228,1) 0%,rgba(48,135,228,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3087e4', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+    padding-left: 23px;
+    width: 82%;
+    margin-bottom: 10px;
+}
+
+.BG-Prop {
+    background: #eee;
+}
+
+.top-border {
+    border-top: 4px solid #ccc !important;
+    color: #007890;
+}
+
+    .top-border span {
+        color: #007890;
+        font-weight: bold;
+    }
+
+.Box {
+    height: 350px;
+    padding: 10px;
+}
+
+.prop-heading-box {
+    background: #eee;
+    padding: 0 7px 1px 0;
+    box-shadow: -1px 1px 8px #777;
+}
+
+
+.hp_li_div_agent {
+    text-align: center;
+    /*background: #eee;
+    box-shadow: 1px 2px 3px #777777;
+    border-radius: 5px;
+    height: 100%;
+    margin: 0 0 0 -3px;
+    position: relative;*/
+}
+
+.hp_li_div_lender {
+    text-align: center;
+}
+
+.li_div_lender {
+    background: #eee;
+    box-shadow: 1px 2px 3px #777777;
+    border-radius: 5px;
+    height: 100%;
+    margin: 0 0 0 -3px;
+    position: relative;
+}
+
+
+.ShortSale_box, div.ShortSale_box:hover {
+    background: #e68989;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100px;
+    box-shadow: 0 -1px 4px #000000 inset;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.WaterFrontProperty_box, div.WaterFrontProperty_box:hover {
+    background: none repeat scroll 0 0 #7C76F6;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100px;
+    box-shadow: 0 -1px 4px #000000 inset;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+
+.ForeClosure_box, div.ForeClosure_box:hover {
+    background: none repeat scroll 0 0 #40d2ae;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100px;
+    box-shadow: 0 -1px 4px #000000 inset;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.UC_box, div.UC_box:hover {
+    background: #054890;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 120px;
+    box-shadow: 0 -1px 4px #000000 inset;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.NoWaterMark {
+    background: none;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.sort-Box {
+    left: 400px;
+    margin-top: -38px;
+    position: absolute;
+}
+
+
+.tdContainer {
+    height: 410px;
+    /* height: 323px; */
+    margin: 0 1% 1% 0;
+    display: inline-block;
+    float: none !important;
+    border: 1px solid #ccc;
+    box-shadow: 2px 3px 5px #777777;
+    background: #fff;
+}
+
+    .tdContainer:hover {
+        margin: 0 1% 1% 0;
+        display: inline-block;
+        float: none !important;
+        border: 1px solid #000;
+        box-shadow: 0 0 8px #858585;
+        cursor: pointer;
+    }
+
+.k-block {
+    background: none;
+}
+
+.board-toggle {
+    height: 30px;
+    font-size: 12px !important;
+}
+
+.imgroundbroder {
+    height: auto;
+    resize: both;
+    background: #fff;
+    padding: 7px;
+}
+
+.Blackheart {
+    background-image: url("/images/black-heart.png") !important; /*height:50px;*/
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*width: 16px;
+    height: 16px;*/
+    text-decoration: none;
+}
+
+.redheart {
+    background-image: url("/images/orange-heart.png") !important; /*height:50px;*/
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*width: 323px;
+    height: 127px;*/
+    text-decoration: none;
+}
+
+
+
+.fav {
+    background: none no-repeat scroll center center #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-bottom-left-radius: 10px;
+    left: 7px;
+    padding: 4px;
+    position: relative;
+    top: -7px;
+    float: right;
+}
+
+.view {
+    background: none no-repeat scroll center center #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-bottom-right-radius: 10px;
+    float: left;
+    left: -7px;
+    padding: 1px;
+    top: -7px;
+    position: relative;
+}
+
+.Blackviewed {
+    background-image: url("/images/black-eyes.png") !important; /*height:50px;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 16px;
+    height: 16px;
+    text-decoration: none;
+}
+
+.redviewed {
+    background-image: url("/images/blue-eyes.png") !important; /*height:50px;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+}
+
+.card-price {
+    color: #F35800;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    /*   padding: 8px 0 10px 10px;*/
+}
+
+.card-address {
+    color: #4A4A4A;
+    font-size: 12px !important;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    height: 30px;
+    white-space: normal;
+    width: 100%;
+    margin-top: 7px;
+}
+
+hr {
+    border-color: #ccc !important;
+    margin-bottom: 7px !important;
+    margin-top: 7px !important;
+}
+
+.card-city {
+    color: #4A4A4A;
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    height: 15px;
+    white-space: normal;
+    width: 100%;
+}
+
+.card-bed-bath {
+    color: #4A4A4A !important;
+    font-size: 12px;
+}
+
+.PriceText {
+    color: #4A4A4A !important;
+    cursor: auto;
+}
+
+.GridListBtn {
+    background: #eee;
+    color: #000;
+    padding: 9px;
+    margin-right: 1px;
+    border: 1px solid #ccc;
+}
+
+    .GridListBtn:hover {
+        background: #F35800 !important;
+        color: #fff !important;
+        padding: 9px !important;
+        text-decoration: none !important;
+        transition: 1s;
+    }
+
+    .GridListBtn:active {
+        background: #F35800 !important;
+        color: #fff !important;
+        padding: 9px !important;
+        text-decoration: none !important;
+        transition: 1s;
+    }
+
+    .GridListBtn:visited {
+        background: #F35800 !important;
+        color: #fff !important;
+        padding: 9px !important;
+        text-decoration: none !important;
+        transition: 1s;
+    }
+
+
+
+
+/****************************Property Details********************/
+
+.prop-heading-box {
+    background: none repeat scroll 0 0 #EEEEEE;
+    box-shadow: 0 1px 3px #777777;
+    padding: 10px;
+}
+
+.closebtn {
+    background: none repeat scroll 0 0 #777;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 8px;
+    color: #FFFFFF !important;
+    float: right;
+    padding: 3px 7px;
+}
+
+
+/*#PropertyDetails, .bMulti {
+    min-height: 250px;
+}*/
+
+/*#PropertyDetails {
+    z-index: 999 !important;
+}*/
+
+/*#PropertyDetails, .bMulti {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 5px #777;
+    color: #111111;
+    display: none;
+    min-width: 450px;
+    width: 832px;
+    padding-bottom: 8px;
+}*/
+
+/*#PropertyDetails {
+    left: 13% !important;
+    top: 23px !important;
+    width: 73% !important;
+}*/
+
+
+
+/*#rightsidebar, .bMulti {
+    min-height: 250px;
+}*/
+#PropertyDetails, .bMulti {
+    min-height: 250px;
+}
+
+.b-modal {
+    opacity: 0.5 !important;
+}
+
+/*#rightsidebar {
+    z-index: 999 !important;
+}*/
+#PropertyDetails {
+    z-index: 999 !important;
+}
+
+    /*#rightsidebar .k-loading-text {
+        background-image: none !important;
+    }*/
+    #PropertyDetails .k-loading-text {
+        background-image: none !important;
+    }
+    /*#rightsidebar .k-loading-image {
+        background-image: none !important;
+    }*/
+    #PropertyDetails .k-loading-image {
+        background-image: none !important;
+    }
+    /*#rightsidebar .k-loading-color {
+        opacity: 0 !important;
+    }*/
+    #PropertyDetails .k-loading-color {
+        opacity: 0 !important;
+    }
+
+/*#rightsidebar, .bMulti {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 5px #777;
+    color: #111111;
+    display: none;
+    min-width: 450px;
+    width: 832px;
+    padding-bottom: 8px;
+}*/
+
+#PropertyDetails, .bMulti {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 5px #777;
+    color: #111111;
+    display: none;
+    min-width: 450px;
+    width: 832px;
+    padding-bottom: 8px;
+}
+
+/*#rightsidebar {
+    left: 13% !important;
+    top: 23px !important;
+    width: 73% !important;
+}*/
+#PropertyDetails {
+    left: 13% !important;
+    top: 23px !important;
+    width: 73% !important;
+}
+
+.property-details-sheet {
+    width: 100%;
+}
+
+.FL-style {
+    float: left;
+}
+
+.FR-style {
+    float: right;
+}
+
+.listing-style {
+    color: #777777;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 28px !important;
+}
+
+.header-style {
+    color: #777777;
+    display: block;
+    float: left;
+    /*padding-left: 14px;*/
+    font-family: sans-serif;
+}
+
+.lead-activity {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+    .lead-activity a {
+        color: #fff;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+.header-style-w {
+    width: 100%;
+    height: 100px;
+    border: 1px dotted #CCCCCC;
+}
+
+.w-style {
+    width: 100%;
+}
+
+.tdleft {
+    border-right: 1px solid #777777;
+}
+
+.boldStyle {
+    color: #1194AE;
+    font-weight: bold;
+}
+
+.Box-prop td {
+    text-align: justify;
+}
+
+.alignStyle {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    height: auto;
+    color: #666; /*color: #007890;*/
+}
+
+.t-border tr td {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #777;
+}
+
+.slider-style {
+    width: 500px;
+    height: 355px;
+    /*  background: #000;*/
+    float: left;
+    margin: 10px;
+}
+
+.prop {
+    margin-top: 25px;
+    float: left;
+    padding-left: 10px;
+}
+
+.property-features {
+    width: 100%;
+}
+
+.pos {
+    vertical-align: bottom;
+}
+
+.price-style {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+.prce-s {
+    font-weight: bold;
+    color: #F35800;
+    font-size: 20px;
+}
+
+.txt-style-price {
+    color: #F35800;
+    font-size: 20px;
+}
+
+.prop-Box {
+    float: left;
+    padding: 10px;
+    width: 23%;
+    text-align: center;
+}
+
+.MainCont {
+    width: 100%;
+}
+
+.imgroundbroder img {
+    height: 200px;
+    max-width: 100%;
+}
+
+.Main-Prop-Div {
+    overflow-y: auto;
+    height: 575px;
+    width: 100%;
+    margin: 0px auto !important;
+}
+
+.sel-box_1 {
+    width: 90px !important;
+    font-size: 10px !important;
+}
+
+/*----------------------Responsive------------------------------*/
+
+
+@media only screen and (max-width: 320px) {
+    h1.listing_lbl {
+        line-height: 34px !important;
+        font-size: 25px !important;
+    }
+
+    .listview {
+        width: 90% !important;
+    }
+
+    #home_property_div {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+
+    .sort-Box {
+        left: 0px !important;
+        margin-top: 0px !important;
+        position: relative !important;
+    }
+
+    .prop-Box {
+        width: 92% !important;
+    }
+
+    .tdContainer {
+        height: 380px !important;
+    }
+
+    .imgroundbroder img {
+        height: 180px !important;
+        max-width: 100%;
+    }
+
+
+    .Property-img-thumb {
+        height: 72px;
+        width: 72px;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+    }
+
+    .add {
+        font-size: 13px;
+    }
+
+    .ActivityMenu {
+        margin-right: -100px;
+        margin-top: -37px;
+    }
+
+    .lc_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px;
+    }
+
+    .PublicRemarkBG {
+        line-height: 28px;
+        width: 39%;
+    }
+
+    .sel-box_1 {
+        width: 90px !important;
+        font-size: 10px !important;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .Property-img-thumb {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .ActivityMenu {
+        float: none !important;
+        margin-top: -45px !important;
+    }
+
+    /*#PropertyDetails {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }*/
+
+    /*#PropertyDetails, .bMulti {
+        min-height: 200px !important;
+        min-width: 296px !important;
+    }*/
+
+    /*#rightsidebar {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }*/
+    #PropertyDetails {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }
+
+
+    /*#rightsidebar, .bMulti {
+        min-height: 200px !important;
+        min-width: 296px !important;
+    }*/
+    #PropertyDetails, .bMulti {
+        min-height: 200px !important;
+        min-width: 296px !important;
+    }
+
+
+    .Main-Prop-Div {
+        height: 333px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+
+    .gv_galleryWrap {
+        width: 100% !important;
+    }
+
+    .gv_gallery {
+        width: 100% !important;
+    }
+
+    .gv_panelWrap {
+        width: 100% !important;
+    }
+
+    .gv_panel {
+        width: 100% !important;
+    }
+
+    .hp_agentname {
+        /*padding-top: 65px !important;*/
+        font-size: 23px !important;
+    }
+
+    .hp_div_Mortgage {
+        text-align: center !important;
+    }
+}
+
+
+@media only screen and (max-width:380px) {
+    h1.listing_lbl {
+        line-height: 34px !important;
+        font-size: 25px !important;
+    }
+
+    .Property-img-thumb {
+        height: 72px;
+        width: 72px;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+    }
+
+    .add {
+        font-size: 13px;
+    }
+
+    .ActivityMenu {
+        margin-right: -11px;
+        margin-top: -37px;
+    }
+
+    .lc_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px;
+    }
+
+    .PublicRemarkBG {
+        line-height: 28px;
+        width: 39%;
+    }
+
+    .sel-box_1 {
+        width: 90px !important;
+        font-size: 10px !important;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .Property-img-thumb {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .ActivityMenu {
+        float: none !important;
+        margin-top: -45px !important;
+    }
+
+    /*#PropertyDetails {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }*/
+
+    /*#PropertyDetails, .bMulti {
+        min-height: 200px !important;
+        min-width: 296px !important;
+    }*/
+
+    /*#rightsidebar {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }*/
+    #PropertyDetails {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }
+
+
+    /*#rightsidebar, .bMulti {
+        min-height: 200px !important;
+        min-width: 296px !important;
+    }*/
+    #PropertyDetails, .bMulti {
+        min-height: 200px !important;
+        min-width: 296px !important;
+    }
+
+    .Main-Prop-Div {
+        height: 115px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+
+    /*#rightsidebar {
+        min-height: 200px !important;
+        min-width: 339px !important;
+        min-width: 302px !important;
+    }*/
+    #PropertyDetails {
+        min-height: 200px !important;
+        /*min-width: 339px !important;*/
+        min-width: 302px !important; /* -Change Gaurav*/
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    h1.listing_lbl {
+        line-height: 34px !important;
+        font-size: 25px !important;
+    }
+
+    .prop-Box {
+        width: 91% !important;
+    }
+
+    .tdContainer {
+        height: 395px !important;
+    }
+
+    .imgroundbroder img {
+        height: 168px;
+        max-width: 100%;
+    }
+
+    #home_property_div {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .Property-img-thumb {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .ActivityMenu {
+        float: none !important;
+        margin-top: -45px !important;
+    }
+
+    #PropertyDetails {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }
+
+    #PropertyDetails, .bMulti {
+        min-height: 200px !important;
+        min-width: 296px !important;
+    }
+
+
+    .Main-Prop-Div {
+        height: 333px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 400px) {
+    h1.listing_lbl {
+        line-height: 34px !important;
+        font-size: 25px !important;
+        margin-left: 0px !important;
+    }
+
+    .prop-Box {
+        width: 90% !important;
+    }
+
+    .tdContainer {
+        height: 320px !important;
+    }
+
+    .imgroundbroder img {
+        height: 121px !important;
+        max-width: 100%;
+    }
+
+    .sort-Box {
+        left: 16px;
+        margin-top: 5px;
+        position: absolute;
+    }
+
+    .sel-box_1 {
+        width: 90px !important;
+        font-size: 10px !important;
+    }
+
+    .listview {
+        width: 100% !important;
+        padding-top: 0px !important;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .Property-img-thumb {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .ActivityMenu {
+        /*margin-right: 188px !important;*/ /* -Change */
+        margin-top: -45px !important;
+        margin-right: -50px !important;
+    }
+
+    #PropertyDetails {
+        left: 4% !important;
+        top: 102px !important;
+        width: 2% !important;
+    }
+
+    #PropertyDetails, .bMulti {
+        min-height: 355px !important;
+        min-width: 336px !important;
+    }
+
+
+    .Main-Prop-Div {
+        height: 222px !important;
+    }
+
+    .imgroundbroder {
+        height: 48% !important;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    /* ---------- Property List Count Message -------*/
+    .prop_guide_cls {
+        width: 100% !important;
+    }
+
+    .property_count_cls {
+        width: 100% !Important;
+        display: inline-block;
+        padding-top: 3px !important;
+        padding-left: 5px !important;
+    }
+
+    .list_count_cls {
+        font-size: 14px !important;
+    }
+
+    .list_count_cls1 {
+        font-size: 14px !important;
+    }
+
+    .mapdisplaywrap #prop_guide {
+        float: none;
+        height: 35px;
+        padding-top: 5px;
+        width: 100% !important;
+        /* display: inline; */
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+    /* ------- -Gmap ----- Cluster Marker -----*/
+    #property_type_legend {
+        height: 25px !important;
+        padding-top: 5px !important;
+        color: #FF893B;
+        font-weight: bold !important;
+        float: left;
+        width: auto;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .mapWrapper {
+        border-left: 0px solid #007890;
+        border-right: 0px solid #007890 !important;
+        box-shadow: 0 1px 4px #777 !important;
+        height: 580px !important;
+        background-color: #fff !important;
+    }
+
+    .Mapwrap {
+        width: 97% !important;
+        height: 380px !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        margin-right: 30px !important;
+        margin-top: 10px !important;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+
+    /* ---------- End ------------------*/
+
+    /*.hp_agentname
+    {
+        padding-top: 20px !important;
+    }*/
+
+    .search-mort {
+        margin-top: 0px !important;
+    }
+
+    h1.listing_lbl {
+        line-height: 34px !important;
+        font-size: 25px !important;
+        margin-left: 0% !important;
+    }
+
+    .sort-Box {
+        left: 0px !important;
+        margin-top: 0px !important;
+        position: relative !important;
+    }
+
+    .listview {
+        width: 100% !important;
+    }
+
+    .prop-Box {
+        width: 90% !important;
+    }
+
+    .tdContainer {
+        height: 386px !important;
+    }
+
+    .imgroundbroder img {
+        height: 150px;
+        max-width: 100%;
+    }
+
+    .Property-img-thumb {
+        height: 72px;
+        width: 72px;
+    }
+
+    .add {
+        font-size: 13px;
+    }
+
+    .ActivityMenu {
+        margin-right: -11px;
+        margin-top: -37px;
+    }
+
+    .lc_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px;
+    }
+
+    .PublicRemarkBG {
+        line-height: 28px;
+        width: 39%;
+    }
+
+    .k-pager-numbers .k-link {
+        font-size: 11px;
+    }
+
+    .k-pager-numbers .k-state-selected {
+        font-size: 11px;
+        height: 22px;
+        line-height: 21px;
+    }
+
+    .k-pager-wrap > .k-link {
+        font-size: 11px;
+    }
+
+    .k-pager-info {
+        font-size: 12px;
+    }
+
+    .sel-box_1 {
+        width: 90px !important;
+        font-size: 10px !important;
+    }
+
+    #home_property_div {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .Property-img-thumb {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .ActivityMenu {
+        margin-right: -6px !important;
+        margin-top: -27px !important;
+    }
+
+    #PropertyDetails {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }
+
+    #PropertyDetails, .bMulti {
+        min-height: 200px !important;
+        min-width: 444px !important;
+    }
+
+
+    .Main-Prop-Div {
+        height: 145px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+
+    .prop-heading-box {
+        padding: 0px 9px 48px 0 !important;
+    }
+
+    .hp_div_Mortgage {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 420px) and (max-width: 420px) {
+    h1.listing_lbl {
+        line-height: 34px !important;
+        font-size: 25px !important;
+    }
+
+    .listview {
+        width: 100% !important;
+    }
+
+    .prop-Box {
+        width: 100% !important;
+    }
+
+    .tdContainer {
+        height: 412px !important;
+    }
+
+    .imgroundbroder img {
+        height: 200px !important;
+        max-width: 100%;
+    }
+
+    .Property-img-thumb {
+        height: 72px;
+        width: 72px;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+    }
+
+    .add {
+        font-size: 13px;
+    }
+
+    .ActivityMenu {
+        margin-right: -11px;
+        margin-top: -37px;
+    }
+
+    .lc_img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px;
+    }
+
+    .PublicRemarkBG {
+        line-height: 28px;
+        width: 39%;
+    }
+
+    .sel-box_1 {
+        width: 90px !important;
+        font-size: 10px !important;
+    }
+
+    #home_property_div {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .Property-img-thumb {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .ActivityMenu {
+        margin-right: 188px !important;
+        margin-top: -45px !important;
+    }
+
+    #PropertyDetails {
+        left: 4% !important;
+        top: 8px !important;
+        width: 2% !important;
+    }
+
+    #PropertyDetails, .bMulti {
+        min-height: 200px !important;
+        min-width: 371px !important;
+    }
+
+
+    .Main-Prop-Div {
+        height: 115px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 375px) and (orientation: portrait) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        float: none;
+    }
+
+    /* ---------- End Css of Property List Count Message -------*/
+    /*------ -Gmap ------ Cluster Map ----------*/
+    .Mapwrap {
+        width: 97% !important;
+        height: 400px !important;
+    }
+
+    #FEL_listView {
+        height: 110px !important;
+        margin-top: 0px !important;
+        width: 96% !important;
+    }
+  
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 370px;
+        margin-top: 10px;
+        position: absolute;
+        /*margin-left: 299px !important;*/ /* -Change by Gaurav*/
+        margin-left: 5px !important;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+
+    .detail_list {
+        border: 1px solid #777;
+        /* padding: 5px 0px 0px 4px; */
+        margin: 6px 3px -5px 3px;
+        border-radius: 7px;
+        background: #fff;
+        box-shadow: 1px 2px 3px #999;
+        height: 124px !important;
+    }
+
+    .mapWrapper {
+        border-left: 0px solid #007890;
+        border-right: 0px solid #007890;
+        box-shadow: 0 1px 4px #777;
+        height: 648px !important;
+        background-color: #fff!important;
+    }
+    /* ------- End --------- */
+    .Main-Prop-Div {
+        height: 435px !important;
+    }
+
+    #PropertyDetails {
+        left: 4% !important;
+        top: 10px !important;
+        width: 2% !important;
+    }
+
+    .hp_div_Mortgage label {
+        width: 120px !important;
+    }
+
+    /*.hp_agentname {
+        padding-top: 20% !important;
+    }*/
+
+    #div_ASP_MortgageForm ul {
+        text-align: center !important;
+    }
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 360px) and (orientation: portrait) {
+    .Main-Prop-Div {
+        height: 422px !important;
+    }
+
+    .hp_div_Mortgage label {
+        color: #777;
+        width: 120px !important;
+    }
+
+    /*.hp_agentname {
+        padding-top: 40px !important;
+    }*/
+
+    #PropertyDetails {
+        left: 4% !important;
+        top: 28px !important;
+        width: 2% !important;
+    }
+
+    #div_ASP_MortgageForm ul {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+    .prop-heading-box {
+        padding: 0 8px 27px 3px !important;
+    }
+
+    .ActivityMenu {
+        margin-top: -19px !important;
+        margin-right: 3px !important;
+    }
+
+    .hp_div_Mortgage label {
+        width: 110px !important;
+    }
+
+    .search-mort {
+        margin-top: 8px !important;
+    }
+
+    /*.hp_agentname {
+        padding-top: 22px !important;
+    }*/
+
+    h1.listing_lbl {
+        line-height: 34px !important;
+        font-size: 25px !important;
+        margin-left: 5% !important;
+    }
+
+    .sort-Box {
+        left: 0px !important;
+        margin-top: 0px !important;
+        position: relative !important;
+    }
+
+    .prop-Box {
+        width: 45% !important;
+    }
+
+    .tdContainer {
+        height: 400px !important;
+    }
+
+    .imgroundbroder img {
+        height: 168px;
+        max-width: 100%;
+    }
+
+    .add {
+        font-size: 11px !important;
+    }
+
+    .txt-style_1 {
+        font-size: 11px !important;
+    }
+
+    .txt-style_H {
+        font-size: 9px !important;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .Property-img-thumb {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+
+    #PropertyDetails, .bMulti {
+        min-height: 326px !important;
+        min-width: 371px !important;
+    }
+
+
+    .Main-Prop-Div {
+        height: 228px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+
+    .PublicRemarkBG {
+        width: 160px !important;
+    }
+
+    .t-border tr td {
+        padding: 7px !important;
+    }
+}
+
+
+@media only screen and (min-width: 568px) and (max-width: 568px) {
+    .Main-Prop-Div {
+        height: 189px !important;
+    }
+}
+
+@media only screen and (max-width: 414px) and (min-width: 414px) {
+    .prop-heading-box {
+        padding: 0px 9px 25px 0 !important;
+    }
+
+    #PropertyDetails, .bMulti {
+        min-width: 375px !important;
+    }
+
+    .Main-Prop-Div {
+        height: 422px !important;
+    }
+
+    /*.hp_agentname {
+        padding-top: 40px !important;
+    }*/
+}
+
+@media only screen and (max-width:640px) and (orientation: portrait) {
+
+    .imgroundbroder img {
+        height: 196px !important;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 720px) {
+    .hp_div_Mortgage label {
+        color: #777;
+        width: 120px !important;
+    }
+
+    /*.hp_agentname {
+        padding-top: 26px !important;
+    }*/
+
+    .listing_lbl {
+        font-size: 27px !important;
+        color: #444 !important;
+        margin-left: 5% !important;
+    }
+
+    .prop-Box {
+        width: 46% !important;
+    }
+
+    .tdContainer {
+        height: 385px !important;
+    }
+
+    .sort-Box {
+        left: 16px;
+        margin-top: 8px;
+        position: absolute;
+    }
+
+    .sel-box_1 {
+        width: 90px !important;
+        font-size: 10px !important;
+    }
+
+    .listview {
+        padding-top: 0px;
+    }
+
+    .imgroundbroder img {
+        height: 184px !important;
+        max-width: 100%;
+    }
+
+    .lc_img {
+        height: 38px !important;
+        width: 30px !important;
+    }
+
+    .prev-btn {
+        display: none;
+    }
+
+    .Property-img-thumb {
+        display: none;
+    }
+
+    .next-btn {
+        display: none;
+    }
+
+    .ActivityMenu {
+        margin-right: -137px !important;
+        margin-top: -45px !important;
+    }
+
+    #PropertyDetails, .bMulti {
+        min-height: 350px !important;
+        min-width: 371px !important;
+    }
+
+
+    .Main-Prop-Div {
+        height: 200px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+}
+
+@media only screen and (max-width: 384px) and (min-width: 384px) and (orientation: portrait) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        float: none;
+    }
+
+    /* ---------- End Css of Property List Count Message -------*/
+    /* ----------- Cluster Map --------- -Gmap-----*/
+    .mapWrapper {
+        border-left: 0px solid #007890;
+        border-right: 0px solid #007890;
+        box-shadow: 0 1px 4px #777;
+        height: 662px !important;
+        background-color: #fff !important;
+    }
+
+    #GoogleMap1,
+    .Mapwrap {
+        width: 98% !important;
+        height: 500px !important;
+    }
+
+    #FEL_listView {
+        height: 110px !important;
+        margin-top: 0px !important;
+        width: 97% !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px !important;
+        height: 60px !important;
+        padding: 5px !important;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 15px !important;
+        margin-top: 10px !important;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+
+    #property_type_legend {
+        height: 25px !important;
+        padding-top: 5px;
+        color: #FF893B;
+        font-weight: bold;
+        float: left;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .detail_list {
+        border: 1px solid #777;
+        /* padding: 5px 0px 0px 4px; */
+        margin: 6px 3px -5px 3px;
+        border-radius: 7px;
+        background: #fff;
+        box-shadow: 1px 2px 3px #999;
+        height: 123px !important;
+    }
+    /*--------------------End-------------------*/
+    .Main-Prop-Div {
+        height: 507px !important;
+    }
+
+    #PropertyDetails {
+        left: 7% !important;
+        top: 13px !important;
+        width: 2% !important;
+    }
+
+    .hp_div_Mortgage label {
+        color: #777 !important;
+        width: 120px !important;
+    }
+
+    .hp_agentname {
+        padding-top: 43px !important;
+    }
+
+    #div_ASP_MortgageForm ul {
+        text-align: center !important;
+    }
+}
+
+
+@media only screen and (min-width: 721px) and (max-width: 768px) {
+    /*.hp_agentname {
+        padding-top: 24px !important;
+    }*/
+
+    .hp_div_Mortgage {
+        text-align: center !important;
+    }
+
+    .lc_img {
+        height: 43px !important;
+        width: 36px !important;
+    }
+
+    .ActivityMenu {
+        margin-right: 5px !important;
+        margin-top: -55px !important;
+    }
+
+    .listing_lbl {
+        font-size: 27px !important;
+        color: #444 !important;
+        margin-left: 5% !important;
+    }
+
+    .view_more_listing_btn {
+        margin-top: 20px !important;
+    }
+
+    .sort-Box {
+        left: 0px !important;
+        margin-top: 0px !important;
+        position: relative !important;
+    }
+
+    .prop-Box {
+        width: 45% !important;
+    }
+
+    .tdContainer {
+        height: 400px !important;
+    }
+
+    .imgroundbroder img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .Main-Prop-Div {
+        height: 243px !important;
+    }
+
+    .places-nearby-div {
+        margin-top: 18px !important;
+    }
+
+    .dnnPrimaryAction {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+    .Property-img-thumb {
+        margin-right: 5px !important;
+    }
+
+    .add {
+        padding-top: 10px !important;
+    }
+
+    .tdContainer {
+        height: 420px !important;
+    }
+
+    .Property-img-thumb {
+        height: 72px !important;
+        width: 66px !important;
+    }
+
+    .add {
+        font-size: 10px !important;
+    }
+
+    .txt-style_1 {
+        font-size: 12px !important;
+    }
+
+    .txt-style {
+        font-size: 12px !important;
+    }
+
+
+
+    .txt-style_H {
+        font-size: 9px !important;
+    }
+
+    .lc_img {
+        height: 38px !important;
+        width: 30px !important;
+    }
+
+    .PublicRemarkBG {
+        font-size: 11px !important;
+        height: 34px;
+    }
+
+    /*.Main-Prop-Div {
+        height: 360px !important;
+    }*/
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 966px) {
+    .hp_div_Mortgage {
+        text-align: center !important;
+        max-width: none !important;
+    }
+
+    #FEL_listView {
+        margin-top: -500px !important;
+    }
+
+    #prop_guide {
+        width: 50% !important;
+    }
+
+    #property_count {
+        width: 28% !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+    #div_ASP_MortgageForm {
+        text-align: center !important;
+    }
+
+    .hp_div_Mortgage label {
+        width: 160px !important;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+    .sort-Box {
+        left: 0px !important;
+        margin-top: 0px !important;
+        position: relative !important;
+    }
+
+
+    .imgroundbroder img {
+        height: 195px !important;
+        max-width: 100%;
+    }
+
+    .prop-Box {
+        width: 45% !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+
+    .Main-Prop-Div {
+        height: 333px;
+    }
+}
+
+@media only screen and (min-width: 604px) and (max-width: 604px) {
+    .Main-Prop-Div {
+        height: 572px !important;
+    }
+
+    .hp_div_Mortgage {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+
+    .Property-img-thumb {
+        margin-right: 5px !important;
+    }
+
+    .add {
+        padding-top: 10px !important;
+    }
+
+    .Main-Prop-Div {
+        margin: 0px !important;
+    }
+
+    .sort-Box {
+        left: 0px !important;
+        margin-top: 0px !important;
+        position: relative !important;
+    }
+
+    .prop-Box {
+        width: 22% !important;
+    }
+
+    .tdContainer {
+        height: 383px !important;
+    }
+
+    .imgroundbroder img {
+        height: 168px;
+        max-width: 100%;
+    }
+
+    .t-border tr td {
+        padding: 10px !important;
+    }
+
+    .Property-img-thumb {
+        height: 72px !important;
+        width: 66px !important;
+    }
+
+    .add {
+        font-size: 10px !important;
+    }
+
+    .txt-style_1 {
+        font-size: 12px !important;
+    }
+
+    .txt-style {
+        font-size: 12px !important;
+    }
+
+    .txt-style_PT {
+        font-size: 12px !important;
+    }
+
+    .ActivityMenu {
+        margin-top: -50px !important;
+    }
+
+    .txt-style_H {
+        font-size: 9px !important;
+    }
+
+    .lc_img {
+        height: 38px !important;
+        width: 30px !important;
+    }
+
+    .PublicRemarkBG {
+        font-size: 11px !important;
+        height: 34px !important;
+    }
+
+    ul.div_LenderBlockForm li .Lender-prof_txt {
+        padding: 0 0 0 74px !important;
+    }
+
+    .Lender-hw_prof_pic img {
+        height: 90px !important;
+        width: 90px !important;
+    }
+
+    /*ul.div_AgentBlockForm li .prof_txt {
+        padding: 0 0 0 74px !important;
+    }*/
+
+    .hw_prof_pic img {
+        height: 90px !important;
+        width: 90px !important;
+    }
+
+    ul.div_LenderBlockForm li .Lender-name {
+        font-size: 14px !important;
+    }
+
+    ul.div_AgentBlockForm li .name {
+        font-size: 14px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+
+    .Right-section {
+        font-size: 11px !important;
+    }
+
+    .Lender-Right-section {
+        font-size: 11px !important;
+    }
+
+    .Main-Prop-Div {
+        height: 434px !important;
+    }
+
+    .search-mort {
+        margin-top: 22px !important;
+    }
+}
+
+@media only screen and (min-width: 966px) and (max-width: 966px) {
+   
+    .prop-Box {
+        width: 30% !important;
+    }
+
+    .Main-Prop-Div {
+        overflow-y: auto;
+        height: 410px !important;
+    }
+
+    .ActivityMenu {
+        margin-top: -60px !important;
+    }
+
+    .hp_div_Mortgage {
+        text-align: center;
+        max-width: 576px !important;
+    }
+}
+
+@media only screen and (min-width: 966px) and (max-width: 966px) and (orientation:landscape) {
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1136px) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        width: 58% !important;
+    }
+
+    #property_count .list_count_cls {
+        font-size: 17px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 14px !important;
+        margin-top: 3px;
+    }
+
+    #property_count {
+        float: right;
+        width: 22% !important;
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+
+    .imgroundbroder img {
+        height: 180px !important;
+        max-width: 100% !important;
+    }
+
+    .prop-Box {
+        width: 22% !important;
+        text-align: center !important;
+    }
+
+    .sel-box_1 {
+        width: 90px !important;
+        font-size: 10px !important;
+    }
+
+    .t-border tr td {
+        padding: 10px !important;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+
+    .Right-section {
+        font-size: 11px !important;
+    }
+
+    .Lender-Right-section {
+        font-size: 11px !important;
+    }
+
+    .Main-Prop-Div {
+        height: 442px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1200px) {
+    .prop-Box {
+        width: 22% !important;
+    }
+
+    .tdContainer {
+        height: 350px !important;
+    }
+
+    #listView {
+        width: 94% !important;
+    }
+
+    .imgroundbroder img {
+        height: 145px;
+        max-width: 100%;
+    }
+
+    .t-border tr td {
+        padding: 16px;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+}
+
+@media only screen and (min-width:1135px) and (max-width:1199px) {
+
+    #listView {
+        width: 100% !important;
+    }
+
+    .prop-Box {
+        width: 22% !important;
+    }
+}
+
+@media only screen and (min-width: 1137px) and (max-width: 1280px) {
+
+    .prop-Box {
+        width: 22% !important;
+    }
+
+    .tdContainer {
+        height: 368px !important;
+    }
+
+    #listView {
+        width: 94% !important;
+    }
+
+
+    .imgroundbroder img {
+        height: 160px !important;
+        max-width: 100%;
+    }
+
+    .Box {
+        border-style: none !important;
+    }
+
+    .Main-Prop-Div {
+        height: 500px !important;
+        width: 100% !important;
+    }
+
+    .agentname {
+        font-size: 16px !important;
+    }
+
+    .t-border tr td {
+        padding: 16px !important;
+    }
+
+    /*ul.div_AgentBlockForm li .prof_txt {
+        padding: 0 0 0 76px !important;
+    }*/
+
+    .hw_prof_pic img {
+        height: 90px !important;
+        width: 90px !important;
+    }
+
+    .Lender-hw_prof_pic img {
+        height: 90px !important;
+        width: 90px !important;
+    }
+
+    ul.div_LenderBlockForm li .Lender-prof_txt {
+        padding: 0 0 0 76px !important;
+    }
+
+    .k-ff input.k-textbox {
+        font-size: 10px !important;
+    }
+
+    ul.div_AgentBlockForm li .name {
+        font-size: 16px;
+    }
+
+    .imgroundbroder {
+        height: 53% !important;
+    }
+
+    .search-mort {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1360px) {
+    .imgroundbroder img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .add {
+        width: 600px;
+    }
+
+    .Main-Prop-Div {
+        margin: 0px !important;
+    }
+
+    .imgroundbroder {
+        height: 56% !important;
+    }
+
+    .Main-Prop-Div {
+        height: 450px !important;
+    }
+
+    .hp_div_Mortgage label {
+        width: 77px !important;
+    }
+}
+
+@media only screen and (min-width: 1361px) and (max-width: 1366px) {
+    /* ---------- css for the Walk Scope Map on Pop up --------------- */
+    #ws-walkscore-tile {
+        z-index: 1;
+        width: 58% !important;
+        float: right !important;
+        display: inline-grid !important;
+        clear: both;
+        margin-top: -300px !important;
+        height: 310px !important;
+        margin-right: -22px !important;
+    }
+
+    .map-canvas {
+        position: relative;
+        /* width: 75% !important; */
+        width: 92% !important;
+        /* height: 360px; */
+        height: 300px !important;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 0px 1px 5px #777777;
+    }
+
+    /* ---------------------End--------------------------- */
+
+
+    .div_Mortgage label {
+        width: 83px !important;
+    }
+
+    .Box {
+        border-style: none !important;
+    }
+
+    .Main-Prop-Div {
+        width: 100% !important;
+    }
+
+    .imgroundbroder img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .imgroundbroder {
+        height: 57% !important;
+    }
+
+    .Main-Prop-Div {
+        height: 450px !important;
+    }
+
+    .hp_div_Mortgage label {
+        width: 77px !important;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 330px;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1400px) {
+    .prop-Box {
+        width: 23% !important;
+    }
+
+    .tdContainer {
+        height: 374px !important;
+    }
+
+    #listView {
+        width: 92% !important;
+    }
+
+    .imgroundbroder img {
+        height: 168px;
+        max-width: 100%;
+    }
+
+    .imgroundbroder {
+        height: 57% !important;
+    }
+
+    .Main-Prop-Div {
+        height: 704px !important;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+    .listview {
+        width: 97% !important;
+    }
+
+    #listview {
+        width: 97% !important;
+    }
+
+    .Box {
+        border-style: none !important;
+    }
+
+    .imgroundbroder {
+        height: 57% !important;
+    }
+
+    .Main-Prop-Div {
+        height: 704px !important;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+    #listview {
+        width: 90% !important;
+    }
+
+    .listview {
+        width: 90% !important;
+    }
+
+    .Main-Prop-Div {
+        margin: 0px !important;
+    }
+
+    .imgroundbroder {
+        height: 57% !important;
+    }
+}
+
+@media only screen and (min-width:1680px) and (max-width: 1680px) {
+    #prop_guide {
+        width: 69% !important;
+    }
+
+    #property_count .list_count_cls {
+        font-size: 18px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 14px !important;
+        margin-top: 1px !important;
+    }
+
+    .imgroundbroder img {
+        height: 198px !important;
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+
+    h1.listing_lbl {
+        margin-left: 17% !important;
+    }
+
+    .Main-Prop-Div {
+        height: 760px !important;
+        width: 100% !important;
+    }
+
+    #PropertyDetails {
+        top: 30px !important;
+    }
+
+    .Main-Prop-Div {
+        margin: 0px !important;
+    }
+
+    #listview {
+        width: 75% !important;
+    }
+
+    .listview {
+        width: 75% !important;
+    }
+
+    .search-mort {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2048px) {
+    h1.listing_lbl {
+        margin-left: 20% !important;
+    }
+
+    #listview {
+        width: 70% !important;
+    }
+
+    .listview {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (min-width: 2049px) and (max-width: 2560px) {
+    h1.listing_lbl {
+        margin-left: 20% !important;
+    }
+
+    #listview {
+        width: 70% !important;
+    }
+
+    .listview {
+        width: 70% !important;
+    }
+
+    .Main-Prop-Div {
+        height: 1040px !important;
+    }
+
+    .hp_div_Mortgage {
+        max-width: none;
+    }
+}
+
+@media only screen and (min-width: 2561px) and (max-width: 2880px) {
+    h1.listing_lbl {
+        margin-left: 20% !important;
+    }
+
+    #listview {
+        width: 70% !important;
+    }
+
+    .listview {
+        width: 70% !important;
+    }
+
+    .Main-Prop-Div {
+        height: 1340px !important;
+    }
+}
+
+
+/*//For photourl slider//*/
+
+.pd_PublicRemarkBG {
+    text-align: left;
+    height: 20px;
+}
+
+.Box-prop table td {
+    text-align: justify;
+}
+
+.pd_mortage {
+}
+
+.pd_featured_title {
+    border: 1px solid #EFEFEF;
+    color: #2373D0;
+    font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.pd_div_Mortgage ul li {
+    list-style: none;
+    padding: 2px 0;
+}
+
+.pd_div_Mortgage label {
+    color: #777;
+    width: 137px;
+    font-weight: normal;
+}
+
+.pd_div_Mortgage {
+    max-width: 420px;
+    padding: 4px;
+    margin-bottom: 12px;
+    min-height: 235px;
+}
+
+.pd_link-prof-hover {
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.pd_phone_email {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+}
+
+.pd_phone-st {
+}
+
+.pd_name {
+    text-align: center;
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+
+    .pd_name span {
+        font-size: 19px;
+        color: #78736f;
+    }
+
+.hw_prof_pic_pd {
+}
+
+.pd_Lender-hw_prof_pic {
+}
+
+    .pd_Lender-hw_prof_pic img {
+        max-width: 125px;
+        border-radius: 2%;
+        height: auto;
+        width: auto;
+        max-height: 125px;
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+
+.hw_prof_pic_pd img {
+    max-width: 125px;
+    border-radius: 2%;
+    height: auto;
+    width: auto;
+    max-height: 125px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.div_propertyHeader ul li {
+    padding: 4px;
+}
+
+.div_propertyHeader {
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    width: 100%;
+    float: right;
+    box-shadow: 0 1px 4px #000000;
+    margin-top: -11px;
+}
+
+.sticky {
+    background: #fff !important;
+    box-shadow: -1px 3px 15px #777777;
+    margin: 0 0 0 17px !important;
+    position: fixed;
+    right: 5.5%;
+    top: 0;
+    width: 89%;
+    z-index: 999;
+    padding: 0 7px 0px 7px;
+    color: #000;
+}
+
+.scrollup {
+    width: 55px;
+    height: 55px;
+    text-indent: -9999px;
+    opacity: 1.00;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+}
+
+.sticky {
+    z-index: 1000 !important;
+}
+
+.li_div {
+    border-style: none !important;
+}
+
+.places-nearby-div {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #999;
+    font-family: Arial,Helvetica,sans-serif;
+    left: 25px; /*left: 93px;*/
+    margin-top: -4px; /*margin-top: -53px;*/
+    padding: 5px;
+    position: absolute;
+    /*top: 14%;*/ /*top: 23%;*/
+    top: 25%;
+    z-index: 5;
+}
+
+    .places-nearby-div ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .places-nearby-div li {
+        background-color: #f1f1f1;
+        overflow: hidden;
+        padding: 4px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 12px;
+    }
+
+        .places-nearby-div li:nth-child(2n+1) {
+            background-color: #fcfcfc;
+        }
+
+.map-canvas {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 1px 5px #777777;
+}
+
+.Property-img-thumb {
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+    height: 100px;
+    padding: 2px;
+    width: 124px;
+    float: left;
+}
+
+.add {
+    font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    padding-left: 10px;
+    color: #777;
+}
+
+.listing-header-stat {
+    display: block;
+    float: left;
+}
+
+.propHeader h1 {
+    margin-top: 0;
+}
+
+.propHeader ul li {
+    padding-left: 10px;
+}
+
+.txt-style {
+    color: #00AA08;
+    font-size: 20px;
+}
+
+.div_PublicRemark td {
+    text-align: justify;
+}
+
+.pd_agentname {
+    text-align: center;
+    color: #3289E5;
+    font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+    font-size: 26px;
+}
+
+.pd__PublicRemarkBG {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: "Droid Sans",Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    height: 38px;
+    line-height: 38px;
+    color: #2373D0;
+}
+
+.HeadBG {
+    background: -moz-linear-gradient(left, rgba(48,135,228,1) 0%, rgba(125,185,232,0.99) 1%, rgba(125,185,232,0.6) 70%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(48,135,228,1)), color-stop(1%,rgba(125,185,232,0.99)), color-stop(70%,rgba(125,185,232,0.6)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(125,185,232,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(125,185,232,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(125,185,232,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(48,135,228,1) 0%,rgba(125,185,232,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3087e4', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+    padding-left: 23px;
+    width: 82%;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.BG-Prop {
+    background: #eee;
+    background-color: #fff !important;
+}
+
+td.price-clr {
+    background-color: #fff;
+}
+
+.top-border {
+    border-top: 4px solid #ccc !important;
+    color: #007890;
+}
+
+    .top-border span {
+        color: #2373d0;
+        font-weight: bold;
+    }
+
+.Box {
+    height: auto;
+    padding: 10px;
+}
+
+.prop-heading-box {
+    background: #eee;
+    padding: 0 7px 1px 0;
+    box-shadow: -1px 1px 8px #777;
+}
+
+.pd_li_div_agent {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.border-dashed {
+    border: 1px dashed #007890;
+}
+
+.tableDiv {
+    display: table;
+}
+
+.tablerow {
+    display: table-row;
+}
+
+.tablecell {
+    display: table-cell;
+}
+
+.add-font {
+    font-size: 12px;
+}
+
+.header-style {
+    color: #777777;
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-left: 14px;
+}
+
+.listing-style {
+    color: #777777;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.txt-style_1 {
+    color: #F35800;
+    font-size: 20px;
+}
+
+.txt-style_PT {
+    color: #2373D0;
+}
+
+.clear {
+    clear: both;
+}
+
+.FR-style {
+    float: right;
+}
+
+.FL-style {
+    float: left;
+}
+
+.Main-Prop-Div {
+    margin: 10px;
+}
+
+.Box-prop {
+    padding-top: 20px;
+}
+
+.t-border tr td {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 22px;
+    font-family: sans-serif;
+    color: #777;
+    text-align: center;
+}
+
+.col-1 {
+    width: 32%;
+}
+
+.col-2 {
+    width: 32%;
+}
+
+.col-3 {
+    width: 28%;
+}
+
+.col-prop-1 {
+    width: 31%;
+    margin: 5px;
+}
+
+.col-prop-2 {
+    width: 31%;
+    margin: 5px;
+}
+
+.col-prop-3 {
+    width: 31%;
+    margin: 5px;
+}
+
+.Main-prop-feature {
+    width: 67%;
+}
+
+.slider-style {
+    width: 370px;
+    height: 355px;
+    background: #ccc;
+    float: left;
+    margin: 10px;
+}
+
+.Main-prop {
+    width: 100%;
+}
+
+.public-text {
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.txt {
+    color: #07839B;
+}
+
+.feature-header-BG {
+    background: #007890;
+    height: 50px;
+    color: #fff;
+}
+
+.feature-gray-BG {
+    background: #CCCCCC;
+    height: 50px;
+    color: #000;
+}
+
+.feature-white-BG {
+    background: #fff;
+    height: 50px;
+    color: #000;
+}
+
+ul.tree-col {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.tree-colRow {
+    border: 1px solid #ccc;
+    list-style: none outside none;
+    margin: 0 1% 0 0;
+    box-shadow: 1px 3px 2px #CCCCCC;
+}
+
+.featured_title {
+    /*background: none repeat scroll 0 0 #ccc;*/
+    /*
+     background: -moz-linear-gradient(left, rgba(48,135,228,1) 0%, rgba(48,135,228,0.99) 1%, rgba(125,185,232,0.6) 70%, rgba(125,185,232,0) 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(48,135,228,1)), color-stop(1%,rgba(48,135,228,0.99)), color-stop(70%,rgba(125,185,232,0.6)), color-stop(100%,rgba(125,185,232,0)));
+    background: -webkit-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(48,135,228,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); 
+    background: -o-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(48,135,228,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%);
+    background: -ms-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(48,135,228,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); 
+    background: linear-gradient(to right, rgba(48,135,228,1) 0%,rgba(48,135,228,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3087e4', endColorstr='#007db9e8',GradientType=1 ); 
+
+        */
+    background: -moz-linear-gradient(left, rgba(48,135,228,1) 0%, rgba(125,185,232,0.99) 1%, rgba(125,185,232,0.6) 70%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(48,135,228,1)), color-stop(1%,rgba(125,185,232,0.99)), color-stop(70%,rgba(125,185,232,0.6)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(125,185,232,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(125,185,232,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(48,135,228,1) 0%,rgba(125,185,232,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(48,135,228,1) 0%,rgba(125,185,232,0.99) 1%,rgba(125,185,232,0.6) 70%,rgba(125,185,232,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3087e4', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+    border: 1px solid #EFEFEF;
+    color: #222;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+
+.tree-colRow ul {
+    margin: 0 0 0 1px;
+    padding-bottom: 5px;
+    padding-top: 0;
+}
+
+.tree-colRow h4 {
+    font-weight: bold;
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #eee;
+    color: #3E3E3E;
+    font-family: verdana;
+    font-size: 13px;
+    line-height: 28px;
+    margin: 0;
+    padding: 5px;
+    box-shadow: 1px 2px 1px #CCCCCC;
+}
+
+.tree-colRow ul li {
+    font-family: verdana;
+    font-size: 12px;
+    list-style: none outside none;
+}
+
+.tree-colRow ul li {
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #2B2B2B;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 0 0 5px;
+    font-family: Verdana;
+}
+
+.Head-txt {
+    color: #007890;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 480px) {
+    .add {
+        line-height: 1 !important;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .Main-prop-feature {
+        width: 100%;
+    }
+
+    .Box-prop {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .col-prop-1 {
+        width: 93%;
+        margin: 5px;
+    }
+
+    .col-prop-2 {
+        width: 93%;
+        margin: 5px;
+    }
+
+    .col-prop-3 {
+        width: 93%;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 480px)and (orientation : landscape) {
+    .Gallary {
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .listing-header-stat {
+        line-height: 10px !important;
+    }
+
+    .add {
+        line-height: 1 !important;
+    }
+
+    .pd_div_Mortgage {
+        text-align: center !important;
+    }
+
+    .pd_mortage {
+        padding-top: 52px !important;
+    }
+
+    .pd_div_Mortgage label {
+        width: 61px !important;
+    }
+
+    .Properties-style {
+        width: 100%;
+    }
+
+    .Slider-style-width {
+        width: 100%;
+    }
+
+    .Agent-style-width {
+        width: 100%;
+    }
+
+    .Main-prop-feature {
+        width: 100%;
+    }
+
+    .col-prop-1 {
+        width: 93%;
+        margin: 5px;
+    }
+
+    .col-prop-2 {
+        width: 93%;
+        margin: 5px;
+    }
+
+    .col-prop-3 {
+        width: 93%;
+        margin: 5px;
+    }
+
+    .Box-prop {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .add-font {
+        font-size: 9px;
+    }
+
+    .Right-section {
+        font-size: 9px;
+    }
+
+    .Lender-Right-section {
+        font-size: 9px;
+    }
+
+    .Left-section {
+        font-size: 9px;
+    }
+
+    .pd_PublicRemarkBG {
+        font-size: 25px !important;
+    }
+
+    .map_space .dnnPrimaryAction {
+        font-size: 10px !important;
+        min-width: 66px;
+        padding: 5px 3px !important;
+    }
+}
+
+#myGallery {
+    display: none;
+}
+
+.gv_galleryWrap {
+    position: relative;
+    background: #222;
+    font-size: 10pt;
+    margin: 0px auto !important;
+}
+
+.gv_galleryWrap {
+    padding: 0px !important;
+}
+
+.gv_gallery {
+    overflow: hidden;
+    position: relative;
+}
+
+.gv_imageStore {
+    visibility: hidden;
+    position: absolute;
+    top: -10000px;
+    left: -10000px;
+}
+
+.gv_panelWrap {
+    filter: inherit;
+    position: absolute;
+    overflow: hidden;
+}
+
+.gv_panel-loading {
+    background: url(img-loader.gif) 50% 50% no-repeat #aaa;
+}
+
+.gv_frame-loading {
+    background: url(img-loader.gif) 50% 50% no-repeat #aaa;
+}
+
+.gv_panel {
+    filter: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+
+    .gv_panel img {
+        position: absolute;
+    }
+
+.gv_overlay {
+    position: absolute;
+    background: #222;
+    color: white;
+    z-index: 200;
+}
+
+.gv_showOverlay {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(themes/light/info.png) #222;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.gv_overlay h4 {
+    color: white;
+    margin: 1em;
+    font-weight: bold;
+}
+
+.gv_overlay p {
+    color: white;
+    margin: 1em;
+}
+
+.gv_infobar {
+    background: #222;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    height: 1.5em;
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+    vertical-align: middle;
+    z-index: 2000;
+}
+
+.gv_filmstripWrap {
+    overflow: hidden;
+    position: absolute;
+}
+
+.gv_filmstrip {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gv_frame {
+    cursor: pointer;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+    .gv_frame .gv_thumbnail {
+        position: relative;
+        overflow: hidden !important;
+    }
+
+    .gv_frame.current .gv_thumbnail {
+    }
+
+    .gv_frame img {
+        border: none;
+        position: absolute;
+    }
+
+    .gv_frame .gv_caption {
+        height: 14px;
+        line-height: 14px;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .gv_frame.current .gv_caption {
+    }
+
+.gv_pointer {
+    border-color: black;
+}
+
+.gv_navWrap {
+    text-align: center;
+    position: absolute;
+}
+
+.gv_navPlay,
+.gv_navPause,
+.gv_navNext,
+.gv_navPrev {
+    opacity: 0.3;
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    filter: alpha(opacity=30);
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+}
+
+    .gv_navPlay:hover,
+    .gv_navPause:hover,
+    .gv_navNext:hover,
+    .gv_navPrev:hover {
+        opacity: 0.8;
+        -moz-opacity: 0.8;
+        -khtml-opacity: 0.8;
+        filter: alpha(opacity=80);
+    }
+
+.gv_panelNavPrev,
+.gv_panelNavNext {
+    position: absolute;
+    display: none;
+    opacity: 0.50;
+    -moz-opacity: 0.50;
+    -khtml-opacity: 0.50;
+    filter: alpha(opacity=50);
+    z-index: 200;
+}
+
+    .gv_panelNavPrev:hover,
+    .gv_panelNavNext:hover {
+        opacity: 0.9;
+        -moz-opacity: 0.9;
+        -khtml-opacity: 0.9;
+        filter: alpha(opacity=90);
+    }
+
+.gv_navPlay {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background: url(themes/light/play-big.png) top left no-repeat;
+}
+
+.gv_navPause {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background: url(themes/light/pause-big.png) top left no-repeat;
+}
+
+.gv_navNext {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background: url(themes/light/next.png) top left no-repeat;
+}
+
+.gv_navPrev {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background: url(themes/light/prev.png) top right no-repeat;
+}
+
+.gv_panelNavNext {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background: url(themes/light/panel-next.png) top left no-repeat;
+}
+
+.gv_panelNavPrev {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background: url(themes/light/panel-prev.png) top right no-repeat;
+}
+
+ul.div_AgentBlockForm {
+    float: left;
+    font-family: 'Roboto',sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+
+    ul.div_AgentBlockForm li, .div_AgentBlockForm_insidecont ul.div_AgentBlockForm li {
+        float: left;
+        height: 305px;
+        list-style-type: none;
+        margin: 25px 0 15px;
+        max-width: 420px;
+        position: relative;
+        width: 100%;
+    }
+
+.li_div {
+    height: 100%;
+    margin: 0 0 0 -3px;
+    position: relative;
+    box-shadow: 1px 2px 3px #777777;
+    background: none repeat scroll 0 0 #eee;
+    border-radius: 7px;
+}
+
+ul.div_AgentBlockForm li .hw_prof_pic {
+    display: block;
+    left: -26px;
+    position: absolute;
+    top: -34px;
+}
+
+.hw_prof_pic {
+    left: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 200px;
+}
+
+    .hw_prof_pic img {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+ul.div_AgentBlockForm li .prof_txt {
+    padding: 5px 0 0 153px;
+    right: 10px;
+    top: 10px;
+}
+
+ul.div_AgentBlockForm li .name {
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    padding-bottom: 3px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+    ul.div_AgentBlockForm li .name span {
+        bottom: 3px;
+        position: absolute;
+    }
+
+ul.div_AgentBlockForm li .party_icon {
+    bottom: 40px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    width: 25px;
+}
+
+.cong {
+    width: 25px;
+}
+
+ul.div_AgentBlockForm li .btm_band {
+    bottom: 14px;
+    display: block;
+    float: right;
+    height: 53px;
+    position: absolute;
+    width: 100%;
+}
+
+    ul.div_AgentBlockForm li .btm_band td {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+    }
+
+.AgentName {
+    color: #78736f;
+}
+
+.img_AgentImage {
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 7px #CCCCCC;
+}
+
+.Agent-detail {
+    color: #78736f;
+    font-size: 13px;
+}
+
+.Agent {
+    color: #f35800;
+    font-weight: bold;
+}
+
+.visit-My-Blog {
+    color: #777;
+    font-weight: bold;
+}
+
+.Left-section {
+    float: left;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.Right-section {
+    float: left;
+    padding-left: 5px;
+}
+
+.Left-section em {
+    color: #78736f;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: inline;
+    font-size: 12px;
+    height: 3px;
+    width: 72px;
+}
+
+.Right-section em {
+    color: #78736f;
+    font-size: 12px;
+}
+
+.upper {
+    margin-top: 4px;
+}
+
+@media only screen and (max-width:1400px) {
+    .hw_prof_pic img {
+        height: 110px !important;
+        width: 110px !important;
+    }
+
+    .Left-section em {
+        font-size: 12px !important;
+    }
+
+    ul.div_AgentBlockForm li .btm_band {
+        height: 54px !important;
+    }
+
+    .Right-section em {
+        color: #78736F !important;
+        font-size: 12px !important;
+    }
+
+    ul.div_AgentBlockForm li .prof_txt {
+        padding: 0 0 0 96px !important;
+    }
+
+    ul.div_AgentBlockForm li .hw_prof_pic {
+        left: -26px !important;
+        top: -14px !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .PublicRemarkBG {
+        font-size: 17px;
+        height: 34px;
+    }
+
+    .div_PublicRemark td {
+        font-size: 12px;
+    }
+
+    .agentname {
+        font-size: 17px;
+    }
+
+    .div_Mortgage label {
+        font-size: 12px;
+        width: 52px !important;
+    }
+
+    .k-ff input.k-textbox {
+        font-size: 12px !important;
+    }
+
+    .Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Right-section {
+        font-size: 12px;
+    }
+
+    .Lender-Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Lender-Right-section {
+        font-size: 12px;
+    }
+
+    .add {
+        font-size: 16px;
+    }
+
+    .txt-style_1 {
+        font-size: 15px;
+    }
+
+    .txt-style {
+        font-size: 15px;
+    }
+
+    #search_listings_listView {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .PublicRemarkBG {
+        font-size: 17px;
+        height: 34px;
+    }
+
+    .div_PublicRemark td {
+        font-size: 12px;
+    }
+
+    .agentname {
+        font-size: 17px;
+    }
+
+    .div_Mortgage label {
+        font-size: 12px;
+        width: 52px !important;
+    }
+
+    .k-ff input.k-textbox {
+        font-size: 12px !important;
+    }
+
+    .Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Right-section {
+        font-size: 12px;
+    }
+
+    .Lender-Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Lender-Right-section {
+        font-size: 12px;
+    }
+
+    .add {
+        font-size: 16px;
+    }
+
+    .txt-style_1 {
+        font-size: 15px;
+    }
+
+    .txt-style {
+        font-size: 15px;
+    }
+
+    #search_listings_listView {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .PublicRemarkBG {
+        font-size: 17px;
+        height: 34px;
+    }
+
+    .div_PublicRemark td {
+        font-size: 12px;
+    }
+
+    .agentname {
+        font-size: 17px;
+    }
+
+    .div_Mortgage label {
+        font-size: 12px;
+        width: 52px !important;
+    }
+
+    .k-ff input.k-textbox {
+        font-size: 12px !important;
+    }
+
+    .Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Right-section {
+        font-size: 12px;
+    }
+
+    .Lender-Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Lender-Right-section {
+        font-size: 12px;
+    }
+
+    .add {
+        font-size: 16px;
+    }
+
+    .txt-style_1 {
+        font-size: 15px;
+    }
+
+    .txt-style {
+        font-size: 15px;
+    }
+
+    #search_listings_listView {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .PublicRemarkBG {
+        font-size: 17px;
+        height: 34px;
+    }
+
+    .div_PublicRemark td {
+        font-size: 12px;
+    }
+
+    .agentname {
+        font-size: 17px;
+    }
+
+    .div_Mortgage label {
+        font-size: 12px;
+        width: 52px !important;
+    }
+
+    .k-ff input.k-textbox {
+        font-size: 12px !important;
+    }
+
+    .Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Right-section {
+        font-size: 12px;
+    }
+
+    .Lender-Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Lender-Right-section {
+        font-size: 12px;
+    }
+
+    .add {
+        font-size: 16px;
+    }
+
+    .txt-style_1 {
+        font-size: 15px;
+    }
+
+    .txt-style {
+        font-size: 15px;
+    }
+
+    #search_listings_listView {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+
+    .PublicRemarkBG {
+        font-size: 17px;
+        height: 34px;
+        width: auto !important;
+    }
+
+    .div_PublicRemark td {
+        font-size: 12px;
+    }
+
+    .agentname {
+        font-size: 17px;
+    }
+
+    .div_Mortgage label {
+        font-size: 12px;
+        width: 52px !important;
+    }
+
+    .k-ff input.k-textbox {
+        font-size: 12px !important;
+    }
+
+    .Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Right-section {
+        font-size: 12px;
+    }
+
+    .Lender-Left-section em {
+        font-size: 12px !important;
+    }
+
+    .Lender-Right-section {
+        font-size: 12px;
+    }
+
+    .add {
+        font-size: 16px;
+    }
+
+    .txt-style_1 {
+        font-size: 15px;
+    }
+
+    .txt-style {
+        font-size: 15px;
+    }
+
+    .txt-style_PT {
+        font-size: 15px;
+    }
+
+    #search_listings_listView {
+        padding-top: 40px;
+    }
+
+    #div_PD_MortgageForm ul {
+        width: 60% !important;
+        margin: 0 auto !important;
+    }
+
+    .pd_div_Mortgage {
+        max-width: none;
+    }
+}
+
+ul.div_LenderBlockForm {
+    float: left;
+    font-family: 'Roboto',sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+    ul.div_LenderBlockForm li, .div_LenderBlockForm_insidecont ul.div_LenderBlockForm li {
+        float: left;
+        height: 235px;
+        list-style-type: none;
+        margin: 25px 0 15px;
+        max-width: 420px;
+        position: relative;
+        width: 100%;
+    }
+
+.Lender-li_div {
+    height: 100%;
+    margin: 0 0 0 -3px;
+    position: relative;
+    box-shadow: 1px 2px 3px #777777;
+    background: none repeat scroll 0 0 #eee;
+    border-radius: 7px;
+}
+
+ul.div_LenderBlockForm li .Lender-hw_prof_pic {
+    display: block;
+    left: -26px;
+    position: absolute;
+    top: -34px;
+}
+
+.Lender-hw_prof_pic {
+    left: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 200px;
+}
+
+    .Lender-hw_prof_pic img {
+        border-radius: 5%;
+        max-height: 150px;
+        max-width: 150px;
+        height: auto;
+        width: auto;
+    }
+
+ul.div_LenderBlockForm li .Lender-prof_txt {
+    padding: 5px 0 0 153px;
+    right: 10px;
+    top: 10px;
+}
+
+ul.div_LenderBlockForm li .Lender-name {
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    padding-bottom: 3px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+    ul.div_LenderBlockForm li .Lender-name span {
+        bottom: 3px;
+        position: absolute;
+    }
+
+ul.div_LenderBlockForm li .Lender-party_icon {
+    bottom: 40px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    width: 25px;
+}
+
+.Lender-cong {
+    width: 25px;
+}
+
+ul.div_LenderBlockForm li .Lender-btm_band {
+    bottom: 14px;
+    display: block;
+    float: right;
+    height: 37px;
+    position: absolute;
+    width: 100%;
+}
+
+    ul.div_LenderBlockForm li .Lender-btm_band td {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+    }
+
+.LenderName {
+    color: #78736f;
+}
+
+.img_LenderImage {
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 7px #CCCCCC;
+}
+
+.Lender-detail {
+    color: #78736f;
+    font-size: 13px;
+}
+
+.Lender {
+    color: #f35800;
+    font-weight: bold;
+}
+
+.Lender-visit-My-Blog {
+    color: #777;
+    font-weight: bold;
+}
+
+.Lender-Left-section {
+    float: left;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.Lender-Right-section {
+    float: left;
+    padding-left: 5px;
+}
+
+.Lender-Left-section em {
+    color: #78736f;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: inline;
+    font-size: 13px;
+    height: 3px;
+    width: 72px;
+    font-style: normal !important;
+}
+
+.Lender-Right-section em {
+    color: #78736f;
+    font-size: 12px;
+}
+
+.Lender-upper {
+    margin-top: 4px;
+}
+
+@media only screen and (max-width:1400px) {
+    .Lender-hw_prof_pic img {
+        max-height: 110px !important;
+        max-width: 110px !important;
+    }
+
+    .Lender-Left-section em {
+        font-size: 10px !important;
+    }
+
+    ul.div_LenderBlockForm li .Lender-btm_band {
+        height: 39px !important;
+    }
+
+    .Lender-Right-section em {
+        color: #78736F !important;
+        font-size: 11px !important;
+    }
+
+    ul.div_LenderBlockForm li .Lender-prof_txt {
+        padding: 0 0 0 96px !important;
+    }
+
+    ul.div_LenderBlockForm li .Lender-hw_prof_pic {
+        left: -26px !important;
+        top: -14px !important;
+    }
+}
+
+.mapbuttonall {
+    padding: 2px;
+}
+
+.map-sp {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.div_Mortgage ul li {
+    list-style: none;
+    padding: 2px 0;
+}
+
+.div_Mortgage label {
+    color: #777;
+    width: 137px;
+    font-weight: normal;
+}
+
+.div_Mortgage {
+    background: none repeat scroll 0 0 #eee;
+    max-width: 420px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 3px #777777;
+    padding: 4px;
+    margin-bottom: 12px;
+    min-height: 235px;
+}
+
+.Mortgage-title {
+    background: none repeat scroll 0 0 #777777;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 1px 4px #000000;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.t-border {
+    width: 100%;
+    margin: 0px auto !important;
+}
+
+.publicRemarkBlock {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.txt-style_H {
+    font-size: 12px;
+}
+
+.Gallary {
+    padding-left: 0px !important;
+}
+
+@media only screen and (max-width:320px) and (orientation: portrait) {
+    .Gallary {
+        padding-left: 0px !important;
+    }
+
+    .featured_title {
+        font-size: 13px;
+    }
+
+    .tree-colRow h4 {
+        font-size: 11px;
+    }
+
+    .tree-colRow ul li {
+        font-size: 11px;
+    }
+
+    .txt-style_H {
+        font-size: 7px !important;
+    }
+
+    .txt-style_1 {
+        font-size: 9px !important;
+    }
+
+    .txt-style {
+        font-size: 9px !important;
+    }
+
+    h1, .h1 {
+        line-height: 7px !important;
+    }
+
+    .Box {
+        border-style: none !important;
+    }
+
+    .Main-Prop-Div {
+        margin: 0px !important;
+    }
+
+    .publicRemarkBlock {
+        margin: 5px 0 auto !important;
+        text-align: center !important;
+    }
+
+    .t-border {
+        width: 80% !important;
+    }
+
+    .Property-img-thumb {
+        height: 40px !important;
+        width: 57px !important;
+    }
+
+    .sticky {
+        background: none repeat scroll 0 0 #fff !important;
+        box-shadow: -1px 3px 15px #777777;
+        color: #000;
+        margin: 0 !important;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 87%;
+        z-index: 999;
+    }
+
+    .add {
+        font-size: 10px !important;
+        padding-left: 0px !important;
+    }
+
+    .listing-header-stat {
+        float: none !important;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+        font-size: 9px !important;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+
+    .dnnPrimaryAction {
+        font-size: 10px !important;
+    }
+
+    .places-nearby-div li {
+        font-size: 9px !important;
+    }
+
+    .lead-box {
+        box-shadow: none !important;
+        padding: 0px !important;
+        margin-top: 15px !important;
+    }
+
+    .places-nearby-div {
+        display: none;
+    }
+
+    .map-canvas {
+        height: 190px !important;
+    }
+
+    ul.div_AgentBlockForm li .name {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .places-nearby-div {
+        display: none;
+    }
+
+    .map-canvas {
+        height: 190px !important;
+    }
+
+    .Gallary {
+        padding-left: 0px !important;
+    }
+
+    .txt-style_H {
+        font-size: 7px !important;
+    }
+
+    .txt-style_1 {
+        font-size: 9px !important;
+    }
+
+    .txt-style {
+        font-size: 9px !important;
+    }
+
+    h1, .h1 {
+        line-height: 7px !important;
+    }
+
+    .Box {
+        border-style: none !important;
+    }
+
+    .Main-Prop-Div {
+        margin: 0px !important;
+    }
+
+    .publicRemarkBlock {
+        margin: 5px 0 auto !important;
+        text-align: center !important;
+    }
+
+    .t-border {
+        width: 80% !important;
+    }
+
+    .Property-img-thumb {
+        height: 47px !important;
+        width: 55px !important;
+    }
+
+    .sticky {
+        background: none repeat scroll 0 0 #fff !important;
+        box-shadow: -1px 3px 15px #777777;
+        color: #000;
+        margin: 0 !important;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 87%;
+        z-index: 999;
+    }
+
+    .add {
+        font-size: 10px !important;
+        padding-left: 0px !important;
+    }
+
+    .listing-header-stat {
+        float: none !important;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+        font-size: 9px !important;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+
+    .dnnPrimaryAction {
+        font-size: 10px !important;
+    }
+
+    .places-nearby-div li {
+        font-size: 9px !important;
+    }
+
+    .places-nearby-div {
+        top: 31% !important;
+    }
+
+    .lead-box {
+        box-shadow: none !important;
+        padding: 0px !important;
+        margin-top: 7px !important;
+    }
+
+    .add-font {
+        font-size: 9px;
+    }
+
+    .Right-section {
+        font-size: 9px;
+    }
+
+    .Lender-Right-section {
+        font-size: 9px;
+    }
+
+    .Left-section {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .places-nearby-div {
+        display: none;
+    }
+
+    .map-canvas {
+        height: 190px !important;
+    }
+
+    .Gallary {
+        padding-left: 0px !important;
+    }
+
+    .txt-style_H {
+        font-size: 7px !important;
+    }
+
+    .txt-style_1 {
+        font-size: 9px !important;
+    }
+
+    .txt-style {
+        font-size: 9px !important;
+    }
+
+    h1, .h1 {
+        line-height: 7px !important;
+    }
+
+    .Box {
+        border-style: none !important;
+    }
+
+    .Main-Prop-Div {
+        margin: 0px !important;
+    }
+
+    .publicRemarkBlock {
+        margin: 5px 0 auto !important;
+        text-align: center !important;
+    }
+
+    .t-border {
+        width: 80% !important;
+    }
+
+    .Property-img-thumb {
+        height: 47px !important;
+        width: 55px !important;
+    }
+
+    .sticky {
+        background: none repeat scroll 0 0 #fff !important;
+        box-shadow: -1px 3px 15px #777777;
+        color: #000;
+        margin: 0 !important;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 87%;
+        z-index: 999;
+    }
+
+    .add {
+        font-size: 10px !important;
+        padding-left: 0px !important;
+    }
+
+    .listing-header-stat {
+        float: none !important;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+        font-size: 9px !important;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+
+    .dnnPrimaryAction {
+        font-size: 10px !important;
+    }
+
+    .places-nearby-div li {
+        font-size: 9px !important;
+    }
+
+    .places-nearby-div {
+        top: 31% !important;
+    }
+
+    .add-font {
+        font-size: 9px;
+    }
+
+    .Right-section {
+        font-size: 9px;
+    }
+
+    .Lender-Right-section {
+        font-size: 9px;
+    }
+
+    .Left-section {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .pd_div_Mortgage {
+        text-align: center !important;
+    }
+
+    .pd_mortage {
+        padding-top: 52px !important;
+    }
+
+    .pd_div_Mortgage label {
+        width: 138px !important;
+    }
+
+    .places-nearby-div {
+        display: none;
+    }
+
+    .map-canvas {
+        height: 190px !important;
+    }
+
+    .Gallary {
+        padding-left: 20px !important;
+    }
+
+    .txt-style_H {
+        font-size: 7px !important;
+    }
+
+    .txt-style_1 {
+        font-size: 9px !important;
+    }
+
+    .txt-style_PT {
+        font-size: 9px !important;
+    }
+
+    .txt-style {
+        font-size: 9px !important;
+    }
+
+    h1, .h1 {
+        line-height: 7px !important;
+    }
+
+    .Box {
+        border-style: none !important;
+    }
+
+    .publicRemarkBlock {
+        margin: 5px 0 auto !important;
+        text-align: center !important;
+    }
+
+    .t-border {
+        width: 80% !important;
+    }
+
+    .Property-img-thumb {
+        height: 47px !important;
+        width: 55px !important;
+    }
+
+    .sticky {
+        background: none repeat scroll 0 0 #fff !important;
+        box-shadow: -1px 3px 15px #777777;
+        color: #000;
+        margin: 0 !important;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 87%;
+        z-index: 999;
+    }
+
+    .add {
+        font-size: 10px !important;
+    }
+
+    .listing-header-stat {
+        float: none !important;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+        font-size: 9px !important;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+
+    .Box-prop {
+        padding-bottom: 5px !important;
+    }
+
+    .dnnPrimaryAction {
+        font-size: 10px !important;
+    }
+
+    .places-nearby-div li {
+        font-size: 9px !important;
+    }
+
+    .places-nearby-div {
+        top: 31% !important;
+    }
+
+    .add-font {
+        font-size: 9px;
+    }
+
+    .Right-section {
+        font-size: 9px;
+    }
+
+    .Lender-Right-section {
+        font-size: 9px;
+    }
+
+    .Left-section {
+        font-size: 9px;
+    }
+
+    .Main-Prop-Div {
+        margin: -8px auto !important;
+    }
+
+    .prop_guide_cls {
+        width: 100% !important;
+    }
+
+    .mapdisplaywrap #property_count {
+        width: 100% !Important;
+        display: inline-block;
+    }
+
+    .list_count_cls {
+        font-size: 14px !important;
+    }
+
+    .list_count_cls1 {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width:320px) and (orientation:portrait) {
+    .prop_guide_cls {
+        width: 100% !important;
+        float: none;
+    }
+
+    .property_count_cls {
+        width: 100% !important;
+        padding-top: 9px !important;
+        padding-left: 5px !important;
+    }
+
+    .list_count_cls,
+    .list_count_cls1 {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 400px) {
+    .listing-header-stat {
+        line-height: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+
+    .add {
+        padding-left: 0px !important;
+    }
+
+    .listing-header-stat {
+        line-height: 12px !important;
+    }
+
+    /*#rightsidebar {
+        left: 3% !important;
+        top: 23px !important;
+        width: 73% !important;
+        overflow: auto !important;
+    }*/
+    #PropertyDetails {
+        left: 3% !important;
+        top: 23px !important;
+        width: 73% !important;
+        overflow: auto !important;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 480px) {
+    .Main-Prop-Div {
+        margin: -21px auto !important;
+    }
+
+    .listing-header-stat {
+        line-height: 12px !important;
+    }
+}
+
+@media only screen and (min-width:568px) and (max-width:600px) {
+    /* ---------- Property List Count Message -------*/
+    #property_type_legend {
+        height: 25px !important;
+    }
+
+    .mapdisplaywrap #prop_guide {
+        float: none;
+        height: 1px !important;
+        padding-top: 5px;
+        width: 100% !important;
+        /* display: inline; */
+    }
+
+    #property_count .list_count_cls {
+        font-size: 13px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 13px !important;
+    }
+
+    .mapdisplaywrap #property_count {
+        float: right;
+        height: 30px;
+        width: 40% !important;
+        padding-top: 4px;
+        /* text-align: right; */
+    }
+
+    /* ---------- End Css of Property List Count Message -------*/
+    .pd_div_Mortgage {
+        text-align: center !important;
+    }
+
+    .pd_mortage {
+        padding-top: 52px !important;
+    }
+
+    .add {
+        padding-left: 0px !important;
+    }
+
+    .map-canvas {
+        height: 190px !important;
+    }
+
+    .places-nearby-div {
+        display: none;
+    }
+
+    .Gallary {
+        padding-left: 0px !important;
+    }
+
+    .txt-style_H {
+        font-size: 7px !important;
+    }
+
+    .txt-style_1 {
+        font-size: 9px !important;
+    }
+
+    .txt-style {
+        font-size: 9px !important;
+    }
+
+    .txt-style_PT {
+        font-size: 9px !important;
+    }
+
+    h1, .h1 {
+        line-height: 7px !important;
+    }
+
+    .Box {
+        border-style: none !important;
+    }
+
+    .Main-Prop-Div {
+        margin: 0px !important;
+    }
+
+    .publicRemarkBlock {
+        margin: 5px 0 auto !important;
+        text-align: center !important;
+    }
+
+    .t-border {
+        width: 80% !important;
+    }
+
+    .Property-img-thumb {
+        height: 47px !important;
+        width: 55px !important;
+    }
+
+    .sticky {
+        background: none repeat scroll 0 0 #fff !important;
+        box-shadow: -1px 3px 15px #777777;
+        color: #000;
+        margin: 0 !important;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 87%;
+        z-index: 1000;
+    }
+
+    .add {
+        font-size: 10px !important;
+    }
+
+    .t-border tr td {
+        padding: 0px !important;
+        font-size: 9px !important;
+    }
+
+    .PublicRemarkBG {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+
+    .Box-prop {
+        padding: 0px !important;
+    }
+
+    .dnnPrimaryAction {
+        font-size: 10px !important;
+    }
+
+    .places-nearby-div li {
+        font-size: 9px !important;
+    }
+
+    .places-nearby-div {
+        top: 31% !important;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width:667px) {
+    .pd_div_Mortgage {
+        text-align: center !important;
+        max-width: none !important;
+    }
+
+    .pd_mortage {
+        padding-top: 52px !important;
+    }
+
+    .map-canvas {
+        height: 190px !important;
+    }
+
+    .places-nearby-div {
+        display: none;
+    }
+
+    #div_ASP_MortgageForm ul {
+        margin: 0 auto !important;
+        width: 60% !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width:667px) and (max-width:667px) {
+    .Box {
+        margin: 0px auto;
+        width: 82%;
+    }
+
+    .pd_div_Mortgage {
+        text-align: center !important;
+    }
+
+    .pd_mortage {
+        padding-top: 52px !important;
+    }
+
+    .dnnPrimaryAction {
+        font-size: 11px !important;
+    }
+}
+
+@media only screen and (min-width:640px) and (max-width:640px) {
+    .pd_div_Mortgage {
+        text-align: center !important;
+    }
+
+    .Box {
+        margin: 0px auto;
+        width: 82%;
+    }
+
+    .pd_mortage {
+        padding-top: 52px !important;
+    }
+
+    .Main-Prop-Div {
+        margin: -5px !important;
+    }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 768px) {
+    .pd_div_Mortgage {
+        max-width: none !important;
+        text-align: center !important;
+    }
+
+    ul.div_AgentBlockForm li {
+        max-width: none !important;
+    }
+
+    ul.div_LenderBlockForm li {
+        max-width: none !important;
+    }
+
+    .pd_mortage {
+        padding-top: 52px !important;
+    }
+
+    .Property-img-thumb {
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .add {
+        padding-left: 0px !important;
+    }
+
+    .propHeader ul li {
+        padding-left: 9px !important;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 991px) {
+    .Property-img-thumb {
+        height: 78px !important;
+        width: 85px !important;
+    }
+}
+
+@media only screen and (min-width: 966px) and (max-width: 966px) {
+    .mapdisplaywrap #property_count {
+        width: 23% !important;
+        padding-top: 6px;
+    }
+
+    .pd_mortage {
+        padding-top: 52px !important;
+    }
+
+    .pd_div_Mortgage {
+        max-width: none !important;
+        text-align: center !important;
+    }
+
+    ul.div_AgentBlockForm li {
+        max-width: none !important;
+    }
+
+    ul.div_LenderBlockForm li {
+        max-width: none !important;
+    }
+
+    .Property-img-thumb {
+        height: 100px !important;
+        width: 100px !important;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 736px) {
+    .pd_div_Mortgage {
+        max-width: none !important;
+        text-align: center !important;
+    }
+
+    ul.div_AgentBlockForm li {
+        max-width: none !important;
+    }
+
+    ul.div_LenderBlockForm li {
+        max-width: none !important;
+    }
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+    .Gallary {
+        padding-left: 50px !important;
+    }
+
+    .pd_div_Mortgage {
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:1366px)and (orientation: landscape) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        /*width: 66% !important;*/
+        float: left;
+    }
+
+    #property_count .list_count_cls {
+        font-size: 17px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 14px !important;
+        margin-top: 3px;
+    }
+
+    #property_count {
+        /*width: 19% !important;*/
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+    .add {
+        font-size: 17px;
+    }
+
+    #draw a img,
+    #clearPoly a img {
+        border: 3px solid #33CC33;
+    }
+
+    .drawClear {
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-bottom: -150px;
+        margin-right: 330px;
+        margin-top: 10px;
+        border-radius: 2px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 2561px) and (max-width: 2880px) {
+    .slider_width {
+        width: 40% !important;
+    }
+
+
+    .ul.div_AgentBlockForm li {
+        margin: 27px 110px 20px !important;
+    }
+
+    .ul.div_LenderBlockForm li {
+        margin: 25px 119px 15px !important;
+    }
+
+    ul.div_AgentBlockForm li, .div_AgentBlockForm_insidecont ul.div_AgentBlockForm li {
+        max-width: none;
+    }
+
+    #div_PD_MortgageForm ul {
+        width: 40% !important;
+        margin: 0 auto !important;
+    }
+
+    .pd_div_Mortgage {
+        max-width: none;
+    }
+
+    ul.div_LenderBlockForm li, .div_LenderBlockForm_insidecont ul.div_LenderBlockForm li {
+        float: none;
+        max-width: none;
+    }
+
+    .hp_div_Mortgage {
+        max-width: none;
+    }
+
+    #div_ASP_MortgageForm ul {
+        width: 50% !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 2049px) and (max-width: 2560px) {
+    #property_count {
+        float: right;
+    }
+
+        #property_count .list_count_cls1 {
+            padding-top: 2px !important;
+        }
+
+    .slider_width {
+        width: 62% !important;
+    }
+
+    ul.div_AgentBlockForm li, .div_AgentBlockForm_insidecont ul.div_AgentBlockForm li {
+        max-width: none;
+    }
+
+    #div_PD_MortgageForm ul {
+        width: 45% !important;
+        margin: 0 auto;
+    }
+
+    .pd_div_Mortgage {
+        max-width: none;
+    }
+
+    ul.div_LenderBlockForm li, .div_LenderBlockForm_insidecont ul.div_LenderBlockForm li {
+        float: none;
+        max-width: none;
+    }
+
+    #div_ASP_MortgageForm {
+        width: 58% !important;
+        margin: 0 auto;
+    }
+
+    .Gallary {
+        padding-left: 135px !important;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2048px) {
+
+    #property_count {
+        float: right;
+    }
+
+        #property_count .list_count_cls1 {
+            padding-top: 2px !important;
+        }
+
+    .Gallary {
+        padding-left: 125px !important;
+    }
+
+    ul.div_AgentBlockForm li, .div_AgentBlockForm_insidecont ul.div_AgentBlockForm li {
+        max-width: none;
+    }
+
+    #div_PD_MortgageForm {
+        text-align: center;
+    }
+
+    .pd_div_Mortgage {
+        max-width: none;
+    }
+
+    ul.div_LenderBlockForm li, .div_LenderBlockForm_insidecont ul.div_LenderBlockForm li {
+        float: none;
+        max-width: none;
+    }
+
+    #div_ASP_MortgageForm ul {
+        width: 78% !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+    ul.div_AgentBlockForm li, .div_AgentBlockForm_insidecont ul.div_AgentBlockForm li {
+        max-width: none;
+    }
+
+    #div_PD_MortgageForm {
+        text-align: center;
+    }
+
+    .pd_div_Mortgage {
+        max-width: none;
+    }
+
+    ul.div_LenderBlockForm li, .div_LenderBlockForm_insidecont ul.div_LenderBlockForm li {
+        float: none;
+        max-width: none;
+    }
+
+    .pd_agentname {
+        margin-top: 21px !important;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        width: 68% !important;
+    }
+
+    #property_count .list_count_cls {
+        font-size: 17px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 14px !important;
+        margin-top: 1px !important;
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+    #div_PD_MortgageForm {
+        text-align: center;
+    }
+
+    .pd_div_Mortgage {
+        max-width: none;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 720px) {
+    .pd_agentname {
+        margin-top: 40px !important;
+    }
+
+    ul.div_AgentBlockForm li, .div_AgentBlockForm_insidecont ul.div_AgentBlockForm li {
+        max-width: none;
+    }
+
+    ul.div_LenderBlockForm li, .div_LenderBlockForm_insidecont ul.div_LenderBlockForm li {
+        max-width: none;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        width: 69% !important;
+    }
+
+    #property_count .list_count_cls {
+        font-size: 18px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 14px !important;
+        padding-top: 2px !important;
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+    #div_PD_MortgageForm ul {
+        width: 75% !important;
+        margin: 0 auto;
+    }
+
+    .pd_div_Mortgage {
+        max-width: none;
+    }
+
+    ul.div_AgentBlockForm li, .div_AgentBlockForm_insidecont ul.div_AgentBlockForm li {
+        max-width: none;
+    }
+
+    ul.div_LenderBlockForm li, .div_LenderBlockForm_insidecont ul.div_LenderBlockForm li {
+        max-width: none;
+    }
+
+    .slider_width {
+        width: 66% !important;
+    }
+
+    .Gallary {
+        padding-left: 47px !important;
+    }
+}
+
+@media only screen and (min-width:1135px) and (max-width:1199px) {
+    .pd_div_Mortgage label {
+        width: 173px !important;
+    }
+}
+
+
+@media only screen and (min-width: 1137px) and (max-width: 1280px) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        width: 65% !important;
+    }
+
+    #property_count .list_count_cls {
+        font-size: 17px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 14px !important;
+        margin-top: 1px !important;
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+    .pd_div_Mortgage label {
+        width: 148px !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+    /* ---------- Property List Count Message -------*/
+    #prop_guide {
+        width: 67% !important;
+    }
+
+    #property_count .list_count_cls {
+        font-size: 17px !important;
+    }
+
+    #property_count .list_count_cls1 {
+        font-size: 14px !important;
+        margin-top: 1px !important;
+    }
+    /* ---------- End Css of Property List Count Message -------*/
+
+    #div_ASP_MortgageForm {
+        width: 114% !important;
+        margin: 0 auto;
+    }
+
+    .slider_width {
+        width: 67% !important;
+    }
+}
+
+@media only screen and (min-width: 1152px) and (max-width: 1152px) {
+    .Gallary {
+        padding-left: 30px !important;
+    }
+
+    /*********************Cluster Map********************/
+    
+    .Gmap-property-list {
+        width: 25% !important;
+    }
+
+    #prop_guide {
+        width: 62% !important;
+    }
+
+    .Mapwrap {
+        width: 74% !important;
+    }
+
+    /*********************End****************************/
+}
+/* ------ Cluster Map ------ -Gmap ---*/
+@media only screen and (min-width: 667px) and (max-width: 667px) {
+    .map {
+        margin-top: -40px !important;
+    }
+
+    .img-List {
+        width: 75px !important;
+    }
+}
+
+/* --------End ----------------------- */
+.btn-info {
+    width: 100% !important;
+    background-color: #2170cd !important;
+    background-image: none !important;
+}
+
+
+    .btn-info :hover {
+        background-color: #033c73 !important;
+    }
+
+/*featured listing*/
+.prop_att {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 50px;
+    /*  border: 1px solid #ccc;
+        border-radius: 5px 5px 5px 5px;
+       float: left;*/
+    /*  padding: 5px; /*-width:auto;height:auto;-*/
+}
+
+    .prop_att img {
+        height: 115px;
+        width: 161px;
+        border: 1px #ccc solid;
+        padding: 2px;
+    }
+
+.prop_list td {
+    vertical-align: top;
+}
+
+.top h1 {
+    background: no-repeat scroll #E0F5F6;
+    border: 0 none;
+    color: #000000;
+    float: left;
+    font: bold 16px/32px Tahoma,Arial,Helvetica,sans-serif;
+    height: 32px;
+    margin: 6px 0 0;
+    overflow: hidden;
+    text-indent: 46px;
+    width: 600px;
+}
+
+.imageWrapper {
+    position: relative;
+    text-wrap: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    table-layout: fixed;
+    width: 100%;
+    overflow: hidden;
+    font-weight: bold;
+    height: 100%;
+}
+
+#data {
+    border: solid 0px none;
+    width: 118px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: bold;
+}
+/*   #data:hover{
+    overflow: visible; 
+    white-space: normal; 
+
+    }*/
+
+.ShortSale_box, div.ShortSale_box:hover {
+    background: #e68989;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 85px;
+    box-shadow: 0 -1px 4px #000000 inset;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.WaterFrontProperty_box, div.WaterFrontProperty_box:hover {
+    background: none repeat scroll 0 0 #7C76F6;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 85px;
+    box-shadow: 0 -1px 4px #000000 inset;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.ForeClosure_box, div.ForeClosure_box:hover {
+    background: none repeat scroll 0 0 #40d2ae;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 85px;
+    box-shadow: 0 -1px 4px #000000 inset;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+.NoWaterMark {
+    background: none;
+    bottom: 28px;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 9px;
+    font-weight: normal;
+    height: 15px;
+    margin: 3px 11px -25px 7px;
+    border-radius: 0 12px 0 0;
+    padding: 5px;
+    position: relative;
+    text-transform: uppercase;
+    width: 85px;
+}
+
+.rel_p {
+    text-align: center;
+    /*width: 185px;*/
+    word-wrap: break-word;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.Typs {
+    text-align: center;
+    /*width: 185px;*/
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 25px;
+    padding: 5px;
+}
+
+.Main_prop_att {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    width: 183px;
+}
+
+.Price-clr {
+    color: #F35800;
+}
+
+.Lbl {
+    color: #555;
+}
+
+
+/*********************************/
+.Add-clr {
+    color: #007890 !important;
+}
+
+.prc-clr {
+    color: #F35800 !important;
+}
+
+.bed-clr {
+    font-weight: normal !important;
+    color: #358eea !important;
+}
+
+.bath-clr {
+    font-weight: normal !important;
+    color: #358eea !important;
+}
+
+.typ-clr {
+    font-weight: normal !important;
+    color: #358eea !important;
+}
+
+
+.bed-clr:hover {
+    color: #F35800 !important;
+}
+
+.bath-clr:hover {
+    color: #F35800 !important;
+}
+
+.typ-clr:hover {
+    color: #F35800 !important;
+}
+
+.tol-val {
+    color: #666;
+    font-weight: 600;
+}
